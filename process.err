@@ -1,0 +1,2 @@
+cat: 'results/*img_????.???.stars.txt': No such file or directory
+grep: results/*img_????.???.stars.txt: No such file or directory

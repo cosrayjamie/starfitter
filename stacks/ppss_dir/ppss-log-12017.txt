@@ -1,0 +1,10 @@
+Apr 04 11:18:52: DSPLY 
+Apr 04 11:18:52: DSPLY =========================================================
+Apr 04 11:18:52: DSPLY                        |P|P|S|S|                         
+Apr 04 11:18:52: DSPLY Distributed Parallel Processing Shell Script vers. 2.97
+Apr 04 11:18:52: DSPLY =========================================================
+Apr 04 11:18:52: DSPLY Hostname:		russpc.cosmic.utah.edu
+Apr 04 11:18:52: DSPLY ---------------------------------------------------------
+Apr 04 11:18:52: DSPLY CPU: Intel(R) Core(TM)2 Quad CPU    Q8400  @ 2.66GHz
+Apr 04 11:18:52: DSPLY Found 4 logic processors.
+Apr 04 11:18:53: ERROR Source file/dir seems to be empty.

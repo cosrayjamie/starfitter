@@ -1,0 +1,4 @@
+h/file 0 tubes.hbook ! N
+nt/creat 1 'TA Tubes' nvar=14 chrzpa=//LUN1 nprime=100000 varlist=set site mir st sub tub rc row col east north up azi elev
+nt/read 1 tubes.dat ! ! 10000000
+for/close 0

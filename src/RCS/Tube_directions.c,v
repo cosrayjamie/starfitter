@@ -1,0 +1,179 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2013.10.03.18.58.25;	author thomas;	state Exp;
+branches;
+next	;
+
+
+desc
+@Initial revision 20131003
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/*
+Program to compute Middle Drum nominal tube directions - SBT
+
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <math.h>
+
+#define RAD2DEG  (180.0e0/M_PI)
+#define DEG2RAD  (M_PI/180.0e0)
+#define NMIRS 25
+#define NSITES 3
+#define dot(A,B)  (((A).e)*((B).e)+((A).n)*((B).n)+((A).u)*((B).u))
+#define mag(A)    sqrt(dot(A,A))
+
+typedef struct VECTOR
+{
+  double e, n ,u;
+}VECTOR;
+
+int main( void);
+
+int main( void)
+{
+  FILE *op;
+  char buffer[1024];
+  double DX[NSITES] = {1.645e0, 62.0e0/25.4e0, 62.0e0/25.4e0}; // PMT apothem (i.e. center to center distance, inches)
+  double DY; // (sqrt(3.0e0)/2.0e0)*DX  -  PMT vertical distance
+  double xc, yc;
+  int mir, site;
+  int st, sub, tub;
+  int rc, row, col;
+  double x0, y0, z0;
+  double dist;
+  double theta, phi;
+
+  VECTOR xhat, yhat, zhat, that;
+
+  const int MAXMIR[NSITES] = { 24, 11, 11}; 
+  const int MINMIR[NSITES] = { 1, 0, 0};
+  
+  double azi[NSITES][NMIRS];  // Cluster azimuth angle
+  double elev[NSITES][NMIRS]; // Cluster elevation angle
+  double rot[NSITES][NMIRS];  // Cluster rotation angle
+  double mcd[NSITES][NMIRS];  // Mirror-cluster distances (meters)
+  double Rmir[NSITES][NMIRS]; // Mirror radius of curvature (meters)
+  
+  const double longitude[NSITES]   = {-112.99429273849e0, -112.71180369861e0, -113.12143272060e0};
+  const double latitude[NSITES]    = {39.47294139643e0, 39.18834810787e0, 39.20792991505e0};
+  const double height[NSITES]      = {1589.193e0, 1398.621e0, 1546.650e0};
+  
+  const double clf_longitude = -112.908732522222e0;
+  const double clf_latitude = 39.2969179361111e0;
+  const double clf_height = 1370.046e0;
+  
+  const double CLUX[NSITES] = {14.5e0, 20.3e0, 20.3e0};
+  const double CLUY[NSITES] = {12.4e0, 17.3e0, 17.3e0};
+
+  //
+
+ if((op=fopen("mirror_geometry.dat","r"))==NULL)
+    {
+      fprintf(stderr,"Unable to open mirror_geometry.dat\7\7\n");
+      exit(-1);
+    }
+
+  while(fgets(buffer,1023,op)!=NULL)
+    {
+      if(sscanf(buffer,"%d %d", &site, &mir) != 2)
+        {
+          fprintf(stderr,"Error reading mirror_geometry.dat\7\7\n");
+          exit(-1);
+        }
+      
+      if(sscanf(buffer,"%*d %*d %lf %lf %lf %lf %lf", &azi[site][mir], &elev[site][mir], &rot[site][mir], &mcd[site][mir], &Rmir[site][mir])!=5)
+        {
+          fprintf(stderr,"Error reading mirror_geometry.dat\7\7\n");
+          exit(-1);
+        }
+      if(fabs(mcd[site][mir] - 2.991e0)<0.01e0)mcd[site][mir] = 3.0e0;
+    }
+
+  fclose(op);
+
+  for(site=0;site<NSITES;site++)
+    {
+      // Compute the cluster center position
+      
+      row = 7; col = 8;
+      x0  = ((double)((row+1)%2)*0.5e0+(double)col)*DX[site];
+      y0  = (double)row*(sqrt(3.0e0)/2.0e0)*DX[site];
+      row = 8; col = 7;
+      x0 += ((double)((row+1)%2)*0.5e0+(double)col)*DX[site];
+      y0 += (double)row*(sqrt(3.0e0)/2.0e0)*DX[site];
+      x0 /= 2.0e0;
+      y0 /= 2.0e0;
+      
+      for(mir=MINMIR[site];mir<=MAXMIR[site];mir++)
+	{
+	  // Set the mirror optics distance. This is the value that should be used in mirror optics
+	  // calculations (e.g. the value of D in X = D*tan(theta)).
+
+	  z0 = (Rmir[site][mir] - mcd[site][mir])*100.0e0/2.54e0;  // Convert to inches
+
+	  zhat.e = cos(elev[site][mir]*DEG2RAD)*cos(azi[site][mir]*DEG2RAD);
+	  zhat.n = cos(elev[site][mir]*DEG2RAD)*sin(azi[site][mir]*DEG2RAD);
+	  zhat.u = sin(elev[site][mir]*DEG2RAD);
+
+	  xhat.e = cos(rot[site][mir]*DEG2RAD)*sin(azi[site][mir]*DEG2RAD) - sin(rot[site][mir]*DEG2RAD)*sin(elev[site][mir]*DEG2RAD)*cos(azi[site][mir]*DEG2RAD);
+	  xhat.n = -(cos(rot[site][mir]*DEG2RAD)*cos(azi[site][mir]*DEG2RAD) + sin(rot[site][mir]*DEG2RAD)*sin(elev[site][mir]*DEG2RAD)*sin(azi[site][mir]*DEG2RAD));
+	  xhat.u = sin(rot[site][mir]*DEG2RAD)*cos(elev[site][mir]*DEG2RAD);
+	  
+	  yhat.e = -(sin(rot[site][mir]*DEG2RAD)*sin(azi[site][mir]*DEG2RAD) + cos(rot[site][mir]*DEG2RAD)*sin(elev[site][mir]*DEG2RAD)*cos(azi[site][mir]*DEG2RAD));
+	  yhat.n = sin(rot[site][mir]*DEG2RAD)*cos(azi[site][mir]*DEG2RAD) - cos(rot[site][mir]*DEG2RAD)*sin(elev[site][mir]*DEG2RAD)*sin(azi[site][mir]*DEG2RAD);
+	  yhat.u = cos(rot[site][mir]*DEG2RAD)*cos(elev[site][mir]*DEG2RAD);
+  
+	  // Cycle through tubes (hpkt tube numbers)
+	  
+	  for(st=0;st<256;st++)
+	    {
+	      sub = st/16;
+	      tub = st%16;
+	      
+	      rc = (st&0xC3)|((st>>2)&0x0C)|((st<<2)&0x30);
+	      row = rc/16;
+	      col = rc%16;
+	      
+	      xc = ((double)((row+1)%2)*0.5e0+(double)col)*DX[site] - x0;
+	      yc = y0 - (double)row*(sqrt(3.0e0)/2.0e0)*DX[site];
+	      
+	      that.e = z0*zhat.e + xc*xhat.e + yc*yhat.e;
+	      that.n = z0*zhat.n + xc*xhat.n + yc*yhat.n;
+	      that.u = z0*zhat.u + xc*xhat.u + yc*yhat.u;
+
+	      dist = sqrt(that.e*that.e+that.n*that.n+that.u*that.u);
+	      
+	      that.e /= dist;
+	      that.n /= dist;
+	      that.u /= dist;
+	      
+	      theta = asin(that.u)*RAD2DEG;
+	      phi = atan2(that.n, that.e)*RAD2DEG;
+	      if(phi<0.0e0)phi+=360.0e0;
+	      
+	      printf("%d %d %d %d %d %d %d %d %.12lf %.12lf %.12lf %.3lf %.3lf\n",
+		     site, mir, st, sub+1, tub+1, rc+1, row+1, col+1,
+		     that.e, that.n, that.u, phi, theta);
+	    }
+	  fflush(stdout);
+	}
+    } 
+  return 0;
+}
+@

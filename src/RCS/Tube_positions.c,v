@@ -1,0 +1,95 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2013.10.03.18.58.25;	author thomas;	state Exp;
+branches;
+next	;
+
+
+desc
+@Initial revision 20131003
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/*
+Program to compute Middle Drum nominal tube directions - SBT
+
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <math.h>
+
+#define RAD2DEG  (180.0e0/M_PI)
+#define DEG2RAD  (M_PI/180.0e0)
+#define NMIRS 25
+#define NSITES 3
+#define dot(A,B)  (((A).e)*((B).e)+((A).n)*((B).n)+((A).u)*((B).u))
+#define mag(A)    sqrt(dot(A,A))
+
+typedef struct VECTOR
+{
+  double e, n ,u;
+}VECTOR;
+
+int main( void);
+
+int main( void)
+{
+  FILE *op;
+  char buffer[1024];
+  double DX[NSITES] = {1.645e0, 62.0e0, 62.0e0}; // PMT apothem (i.e. center to center distance, inches)
+  double DY; // (sqrt(3.0e0)/2.0e0)*DX  -  PMT vertical distance
+  double xc, yc;
+  int mir, site;
+  int st, sub, tub;
+  int rc, row, col;
+  double x0, y0, z0;
+  double dist;
+  double theta, phi;
+
+  VECTOR xhat, yhat, zhat, that;
+
+  const int MAXMIR[NSITES] = { 24, 11, 11}; 
+  const int MINMIR[NSITES] = { 1, 0, 0};
+
+  printf("site st sub tub rc row col x y\n");
+  for(site=1;site<2;site++)
+    {
+      // Compute the cluster center position
+      
+      row = 7; col = 8;
+      x0  = ((double)((row+1)%2)*0.5e0+(double)col)*DX[site];
+      y0  = (double)row*(sqrt(3.0e0)/2.0e0)*DX[site];
+      row = 8; col = 7;
+      x0 += ((double)((row+1)%2)*0.5e0+(double)col)*DX[site];
+      y0 += (double)row*(sqrt(3.0e0)/2.0e0)*DX[site];
+      x0 /= 2.0e0;
+      y0 /= 2.0e0;
+      
+      for(rc=0;rc<256;rc++)
+	{
+	  row = 15-rc%16;
+	  col = rc/16;
+	  
+	  xc = x0 - ((double)((row+1)%2)*0.5e0+(double)col)*DX[site];
+	  yc = y0 - (double)row*(sqrt(3.0e0)/2.0e0)*DX[site];
+	  
+	  printf("%.2X %.3lf %.3lf\n", rc, xc/10.0e0, yc/10.0e0);
+
+	}
+    } 
+  return 0;
+}
+@

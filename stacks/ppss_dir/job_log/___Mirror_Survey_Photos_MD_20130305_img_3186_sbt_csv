@@ -1,0 +1,11 @@
+===== PPSS Item Log File =====
+Host:		russpc.cosmic.utah.edu
+Process:	31939
+Item:		../Mirror_Survey_Photos/MD/20130305/img_3186.sbt.csv
+Start date:	Apr 04 09:11:21
+
+/usr/bin/ppss: line 2283: ./rmunmatched.sh: No such file or directory
+
+Status:		FAILURE
+Total processing time (hh:mm:ss): 00:00:00
+

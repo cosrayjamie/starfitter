@@ -1,0 +1,8 @@
+#clean up
+rm mirror_geometry.*parm.csv
+rm mirror_geometry.nparm.stats
+#run bootstrapping and combine results
+./boot_TAx4.sh
+./boot_stats
+cat mirror_geometry.*parm.stats.csv >> mirror_geometry.nparm.stats
+python QuickStat.py

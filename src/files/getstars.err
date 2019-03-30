@@ -1,0 +1,23 @@
+nohup: ignoring input
+--2013-04-04 17:07:31--  http://simbad.u-strasbg.fr/simbad/sim-id?output.format=ASCII&output.max=1&Ident=hd074688
+Resolving vicarious.cosmic.utah.edu (vicarious.cosmic.utah.edu)... 155.101.22.76
+Connecting to vicarious.cosmic.utah.edu (vicarious.cosmic.utah.edu)|155.101.22.76|:3128... connected.
+Proxy request sent, awaiting response... 200 OK
+Length: 2572 (2.5K) [text/plain]
+Saving to: `STDOUT'
+
+     0K ..                                                    100%  254M=0s
+
+2013-04-04 17:07:31 (254 MB/s) - written to stdout [2572/2572]
+
+--2013-04-04 17:07:31--  http://simbad.u-strasbg.fr/simbad/sim-id?output.format=ASCII&output.max=1&Ident=hd209278
+Resolving vicarious.cosmic.utah.edu (vicarious.cosmic.utah.edu)... 155.101.22.76
+Connecting to vicarious.cosmic.utah.edu (vicarious.cosmic.utah.edu)|155.101.22.76|:3128... connected.
+Proxy request sent, awaiting response... 200 OK
+Length: 2949 (2.9K) [text/plain]
+Saving to: `STDOUT'
+
+     0K ..                                                    100% 14.0M=0s
+
+2013-04-04 17:07:31 (14.0 MB/s) - written to stdout [2949/2949]
+

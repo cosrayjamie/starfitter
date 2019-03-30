@@ -1,0 +1,260 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2013.10.03.18.58.25;	author thomas;	state Exp;
+branches;
+next	;
+
+
+desc
+@Initial revision 20131003
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/*
+    Program to compare the current mirror geometry fit parameters to the original values.
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <math.h>
+
+#define RAD2DEG  (180.0e0/M_PI)
+#define DEG2RAD  (M_PI/180.0e0)
+#define NMIRS 25
+#define NSITES 3
+#define dot(A,B)  (((A).e)*((B).e)+((A).n)*((B).n)+((A).u)*((B).u))
+#define mag(A)    sqrt(dot(A,A))
+
+typedef struct VECTOR
+{
+  double e, n ,u;
+}VECTOR;
+
+int main( int argc, char *argv[]);
+void set_rot(double rot[3][3], double lambda, double phi);
+void printf_ddmmss (double degrees);
+
+
+const double clf_longitude = -112.908732522222e0;
+const double clf_latitude = 39.2969179361111e0;
+const double clf_height = 1370.046e0;
+const char *sname[3] = {"MD", "BR", "LR"};
+
+int main( int argc, char *argv[])
+{
+  int site;
+  int i,j,k;
+  double azimuth, altitude;
+  
+  const double longitude[NSITES]   = {-112.99429273849e0, -112.71180369861e0, -113.12143272060e0};
+  const double latitude[NSITES]    = {39.47294139643e0, 39.18834810787e0, 39.20792991505e0};
+  const double height[NSITES]      = {1589.193e0, 1398.621e0, 1546.650e0};
+
+  double rot[3][3], rot_clf[3][3], rot_site[3][3];
+  double enu[3], enup[3];
+  double newazi, newelev;
+  int dd, mm;
+  double ss;
+
+  if(argc!=8)
+    {
+      fprintf(stderr,"Usage: %s <site, MD=0, BR=1, LR=2> <azimuth ddd mm ss.ssss> <zenith ddd mm ss.ssss>\n", argv[0]);
+      exit(-1);
+    }
+
+  site = atoi(argv[1]);
+  if(site<0)exit(-1);
+  if(site>2)exit(-1);
+
+  dd = atoi(argv[2]);
+  mm = atoi(argv[3]);
+  ss = atof(argv[4]);
+
+  azimuth = (double)dd + ((double)mm + ss/60.0e0)/60.0e0;
+
+  if(azimuth<0.0e0)exit(-1);
+  if(azimuth>=360.0e0)exit(-1);
+  azimuth = 90.0e0 - azimuth;
+  if(azimuth < 0.0e0)azimuth += 360.0e0;
+
+  dd = atoi(argv[5]);
+  mm = atoi(argv[6]);
+  ss = atof(argv[7]);
+
+  altitude = 90.0e0 - ((double)dd + ((double)mm + ss/60.0e0)/60.0e0);
+  if(altitude<0.0e0)exit(-1);
+  if(altitude>=90.0e0)exit(-1);
+
+  printf("\n\nCLF -> ECEF:\n\n");
+  set_rot(rot_clf, clf_longitude, clf_latitude);
+
+  printf("\n\n");
+  printf("[%+.9lf\t", rot_clf[0][0]);
+  printf("%+.9lf\t", rot_clf[0][1]);
+  printf("%+.9lf]\n", rot_clf[0][2]);
+
+  printf("[%+.9lf\t", rot_clf[1][0]);
+  printf("%+.9lf\t", rot_clf[1][1]);
+  printf("%+.9lf]\n", rot_clf[1][2]);
+
+  printf("[%+.9lf\t", rot_clf[2][0]);
+  printf("%+.9lf\t", rot_clf[2][1]);
+  printf("%+.9lf]\n", rot_clf[2][2]);
+
+  printf("\n\n%s -> ECEF:\n\n", sname[site]);
+  set_rot(rot_site, longitude[site], latitude[site]);
+
+  printf("\n\n");
+  printf("[%+.9lf\t", rot_site[0][0]);
+  printf("%+.9lf\t", rot_site[0][1]);
+  printf("%+.9lf]\n", rot_site[0][2]);
+
+  printf("[%+.9lf\t", rot_site[1][0]);
+  printf("%+.9lf\t", rot_site[1][1]);
+  printf("%+.9lf]\n", rot_site[1][2]);
+
+  printf("[%+.9lf\t", rot_site[2][0]);
+  printf("%+.9lf\t", rot_site[2][1]);
+  printf("%+.9lf]\n", rot_site[2][2]);
+
+  printf("\n\nECEF -> %s:\n\n", sname[site]);
+  printf("[%+.9lf\t", rot_site[0][0]);
+  printf("%+.9lf\t", rot_site[1][0]);
+  printf("%+.9lf]\n", rot_site[2][0]);
+
+  printf("[%+.9lf\t", rot_site[0][1]);
+  printf("%+.9lf\t", rot_site[1][1]);
+  printf("%+.9lf]\n", rot_site[2][1]);
+
+  printf("[%+.9lf\t", rot_site[0][2]);
+  printf("%+.9lf\t", rot_site[1][2]);
+  printf("%+.9lf]\n", rot_site[2][2]);
+
+  // Compute rotation matrix from CLF to SITE coordinates
+
+  for(i=0;i<3;i++)
+    {
+      for(j=0;j<3;j++)
+	{
+	  rot[i][j] = 0.0e0;
+	  for(k=0;k<3;k++)
+	    {
+	      rot[i][j] += rot_site[k][i]*rot_clf[k][j];
+	    }
+	}
+    }
+
+
+  printf("\n\nCLF -> %s: = (ECEF -> BR) x (CLF -> ECEF)\n\n", sname[site]);
+
+  printf("[%+.9lf\t", rot[0][0]);
+  printf("%+.9lf\t", rot[0][1]);
+  printf("%+.9lf]\n", rot[0][2]);
+
+  printf("[%+.9lf\t", rot[1][0]);
+  printf("%+.9lf\t", rot[1][1]);
+  printf("%+.9lf]\n", rot[1][2]);
+
+  printf("[%+.9lf\t", rot[2][0]);
+  printf("%+.9lf\t", rot[2][1]);
+  printf("%+.9lf]\n", rot[2][2]);
+
+
+  enu[0] = cos(altitude*DEG2RAD)*cos(azimuth*DEG2RAD);
+  enu[1] = cos(altitude*DEG2RAD)*sin(azimuth*DEG2RAD);
+  enu[2] = sin(altitude*DEG2RAD);
+
+  // Rotate from CLF coordinates
+
+  for(i=0;i<3;i++)
+    {
+      enup[i] = 0.0e0;
+      for(j=0;j<3;j++)
+	{
+	  enup[i] += rot[i][j]*enu[j];
+	}
+    }
+
+  // Compute new elevation angle
+	  
+  newelev = RAD2DEG*asin(enup[2]/sqrt(enup[0]*enup[0]+enup[1]*enup[1]+enup[2]*enup[2]));
+  newazi  = RAD2DEG*atan2(enup[0],enup[1]);
+  if(newazi<0.0e0)newazi += 360.0e0;
+  azimuth = 90.0e0 - azimuth;
+  if(azimuth < 0.0e0)azimuth += 360.0e0;
+  
+  printf("\n\nCLF:(zen: "); printf_ddmmss(90.0e0 - altitude);
+  printf(", azm: "); printf_ddmmss(azimuth);
+  printf(" %s:(zen: ", sname[site]); printf_ddmmss(90.0e0 - newelev);
+  printf(", azm: "); printf_ddmmss(newazi);
+  printf("\n");
+  fflush(stdout);
+
+  return 0;
+}
+
+
+void set_rot(double rot[3][3], double lambda, double phi)
+{
+  lambda *= DEG2RAD;
+  phi *= DEG2RAD;
+
+  rot[0][0] = -sin(lambda); 
+  printf("[-sin(%+.9lf)\t", lambda/DEG2RAD);
+  rot[0][1] = -sin(phi)*cos(lambda);
+  printf("-sin(%+.9lf)*cos(%+.9lf)\t", phi/DEG2RAD, lambda/DEG2RAD);
+  rot[0][2] = cos(phi)*cos(lambda);
+  printf("cos(%+.9lf)*cos(%+.9lf)]\n", phi/DEG2RAD, lambda/DEG2RAD);
+
+  rot[1][0] = cos(lambda);
+  printf("[ cos(%+.9lf)\t", lambda/DEG2RAD);
+  rot[1][1] = -sin(phi)*sin(lambda);
+  printf("-sin(%+.9lf)*sin(%+.9lf)\t", phi/DEG2RAD, lambda/DEG2RAD);
+  rot[1][2] = cos(phi)*sin(lambda);
+  printf("cos(%+.9lf)*sin(%+.9lf)]\n", phi/DEG2RAD, lambda/DEG2RAD);
+
+  rot[2][0] = 0.0e0;
+  printf("[     0.000000000\t");
+  rot[2][1] = cos(phi);
+  printf("               cos(%+.9lf)\t", phi/DEG2RAD);
+  rot[2][2] = sin(phi);
+  printf("               sin(%+.9lf)]\n", phi/DEG2RAD);
+
+  return;
+}
+
+void printf_ddmmss (double degrees)
+{
+  int dd, mm;
+  double ss;
+  double degs;
+
+  degs = fabs (degrees);
+
+  dd = (int) floor (degs);
+  degs -= (double) dd;
+  degs *= 60.0e0;
+  mm = (int) floor (degs);
+  degs -= (double) mm;
+  ss = 60.0e0 * degs;
+
+  if (degrees / degs < (-0.5e0))
+    printf ("-%d %.2d' %.3lf\"", dd, mm, ss);
+  else
+    printf ("+%d %.2d' %.3lf\"", dd, mm, ss);
+
+  return;
+}
+@

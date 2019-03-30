@@ -1,0 +1,195 @@
+Apr 04 09:11:18: DSPLY 
+Apr 04 09:11:18: DSPLY =========================================================
+Apr 04 09:11:18: DSPLY                        |P|P|S|S|                         
+Apr 04 09:11:18: DSPLY Distributed Parallel Processing Shell Script vers. 2.97
+Apr 04 09:11:18: DSPLY =========================================================
+Apr 04 09:11:18: DSPLY Hostname:		russpc.cosmic.utah.edu
+Apr 04 09:11:18: DSPLY ---------------------------------------------------------
+Apr 04 09:11:18: DSPLY CPU: Intel(R) Core(TM)2 Quad CPU    Q8400  @ 2.66GHz
+Apr 04 09:11:18: DSPLY Found 4 logic processors.
+Apr 04 09:11:18: DSPLY Starting 4 parallel workers.
+Apr 04 09:11:18: DSPLY ---------------------------------------------------------
+Apr 04 09:11:18: INFO  Current active workers is 4
+Apr 04 09:11:18: INFO  Now processing ../Mirror_Survey_Photos/MD/20120211/img_0781.act.csv
+Apr 04 09:11:18: INFO  Current active workers is 4
+Apr 04 09:11:18: INFO  Now processing ../Mirror_Survey_Photos/MD/20120211/img_0789.act.csv
+Apr 04 09:11:18: INFO  Current active workers is 4
+Apr 04 09:11:18: INFO  Now processing ../Mirror_Survey_Photos/MD/20120211/img_0783.act.csv
+Apr 04 09:11:18: INFO  Current active workers is 4
+Apr 04 09:11:18: INFO  Now processing ../Mirror_Survey_Photos/MD/20120211/img_0788.act.csv
+Apr 04 09:11:18: INFO  Current active workers is 4
+Apr 04 09:11:18: INFO  Current active workers is 4
+Apr 04 09:11:19: INFO  Now processing ../Mirror_Survey_Photos/MD/20120211/img_0787.act.csv
+Apr 04 09:11:19: INFO  Current active workers is 4
+Apr 04 09:11:19: INFO  Current active workers is 4
+Apr 04 09:11:19: INFO  Current active workers is 4
+Apr 04 09:11:19: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3259.cnh.csv
+Apr 04 09:11:19: INFO  Current active workers is 4
+Apr 04 09:11:19: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3191.sbt.csv
+Apr 04 09:11:19: INFO  Current active workers is 4
+Apr 04 09:11:19: INFO  Current active workers is 4
+Apr 04 09:11:19: INFO  Current active workers is 4
+Apr 04 09:11:19: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3249.sbt.csv
+Apr 04 09:11:19: INFO  Current active workers is 4
+Apr 04 09:11:19: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3202.cnh.csv
+Apr 04 09:11:19: DSPLY ETA: Thu Apr  4 09:11:18 MDT 2013
+Apr 04 09:11:19: INFO  Current active workers is 4
+Apr 04 09:11:19: DSPLY ETA: Thu Apr  4 09:11:18 MDT 2013
+Apr 04 09:11:19: INFO  Current active workers is 4
+Apr 04 09:11:19: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3183.cnh.csv
+Apr 04 09:11:19: INFO  Current active workers is 4
+Apr 04 09:11:19: INFO  Current active workers is 4
+Apr 04 09:11:19: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3335.sbt.csv
+Apr 04 09:11:19: INFO  Current active workers is 4
+Apr 04 09:11:19: INFO  Current active workers is 4
+Apr 04 09:11:19: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3238.sbt.csv
+Apr 04 09:11:19: INFO  Current active workers is 4
+Apr 04 09:11:19: INFO  Current active workers is 4
+Apr 04 09:11:19: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3205.cnh.csv
+Apr 04 09:11:19: INFO  Current active workers is 4
+Apr 04 09:11:19: INFO  Current active workers is 4
+Apr 04 09:11:19: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3338.sbt.csv
+Apr 04 09:11:19: DSPLY ETA: Thu Apr  4 09:11:18 MDT 2013
+Apr 04 09:11:20: INFO  Current active workers is 4
+Apr 04 09:11:20: DSPLY ETA: Thu Apr  4 09:11:18 MDT 2013
+Apr 04 09:11:20: INFO  Current active workers is 4
+Apr 04 09:11:20: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3200.cnh.csv
+Apr 04 09:11:20: INFO  Current active workers is 4
+Apr 04 09:11:20: INFO  Current active workers is 4
+Apr 04 09:11:20: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3240.sbt.csv
+Apr 04 09:11:20: INFO  Current active workers is 4
+Apr 04 09:11:20: INFO  Current active workers is 4
+Apr 04 09:11:20: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3334.sbt.csv
+Apr 04 09:11:20: INFO  Current active workers is 4
+Apr 04 09:11:20: INFO  Current active workers is 4
+Apr 04 09:11:20: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3270.cnh.csv
+Apr 04 09:11:20: INFO  Current active workers is 4
+Apr 04 09:11:20: INFO  Current active workers is 4
+Apr 04 09:11:20: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3190.cnh.csv
+Apr 04 09:11:20: DSPLY ETA: Thu Apr  4 09:11:18 MDT 2013
+Apr 04 09:11:20: INFO  Current active workers is 4
+Apr 04 09:11:20: DSPLY ETA: Thu Apr  4 09:11:18 MDT 2013
+Apr 04 09:11:20: INFO  Current active workers is 4
+Apr 04 09:11:20: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3182.cnh.csv
+Apr 04 09:11:20: INFO  Current active workers is 4
+Apr 04 09:11:20: INFO  Current active workers is 4
+Apr 04 09:11:20: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3191.cnh.csv
+Apr 04 09:11:20: INFO  Current active workers is 4
+Apr 04 09:11:20: INFO  Current active workers is 4
+Apr 04 09:11:20: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3245.cnh.csv
+Apr 04 09:11:20: INFO  Current active workers is 4
+Apr 04 09:11:20: INFO  Current active workers is 4
+Apr 04 09:11:20: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3180.cnh.csv
+Apr 04 09:11:20: INFO  Current active workers is 4
+Apr 04 09:11:20: INFO  Current active workers is 4
+Apr 04 09:11:21: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3174.cnh.csv
+Apr 04 09:11:21: DSPLY ETA: Thu Apr  4 09:11:18 MDT 2013
+Apr 04 09:11:21: INFO  Current active workers is 4
+Apr 04 09:11:21: DSPLY ETA: Thu Apr  4 09:11:18 MDT 2013
+Apr 04 09:11:21: INFO  Current active workers is 4
+Apr 04 09:11:21: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3189.cnh.csv
+Apr 04 09:11:21: INFO  Current active workers is 4
+Apr 04 09:11:21: INFO  Current active workers is 4
+Apr 04 09:11:21: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3186.sbt.csv
+Apr 04 09:11:21: INFO  Current active workers is 4
+Apr 04 09:11:21: INFO  Current active workers is 4
+Apr 04 09:11:21: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3240.cnh.csv
+Apr 04 09:11:21: INFO  Current active workers is 4
+Apr 04 09:11:21: INFO  Current active workers is 4
+Apr 04 09:11:21: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3243.sbt.csv
+Apr 04 09:11:21: INFO  Current active workers is 4
+Apr 04 09:11:21: INFO  Current active workers is 4
+Apr 04 09:11:21: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3199.sbt.csv
+Apr 04 09:11:21: DSPLY ETA: Thu Apr  4 09:11:18 MDT 2013
+Apr 04 09:11:21: INFO  Current active workers is 4
+Apr 04 09:11:21: DSPLY ETA: Thu Apr  4 09:11:18 MDT 2013
+Apr 04 09:11:21: INFO  Current active workers is 4
+Apr 04 09:11:21: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3173.cnh.csv
+Apr 04 09:11:21: INFO  Current active workers is 4
+Apr 04 09:11:21: INFO  Current active workers is 4
+Apr 04 09:11:21: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3182.sbt.csv
+Apr 04 09:11:21: INFO  Current active workers is 4
+Apr 04 09:11:21: INFO  Current active workers is 4
+Apr 04 09:11:21: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3187.cnh.csv
+Apr 04 09:11:21: INFO  Current active workers is 4
+Apr 04 09:11:21: INFO  Current active workers is 4
+Apr 04 09:11:22: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3190.sbt.csv
+Apr 04 09:11:22: INFO  Current active workers is 4
+Apr 04 09:11:22: INFO  Current active workers is 4
+Apr 04 09:11:22: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3180.sbt.csv
+Apr 04 09:11:22: DSPLY ETA: Thu Apr  4 09:11:18 MDT 2013
+Apr 04 09:11:22: INFO  Current active workers is 4
+Apr 04 09:11:22: DSPLY ETA: Thu Apr  4 09:11:18 MDT 2013
+Apr 04 09:11:22: INFO  Current active workers is 4
+Apr 04 09:11:22: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3188.cnh.csv
+Apr 04 09:11:22: INFO  Current active workers is 4
+Apr 04 09:11:22: INFO  Current active workers is 4
+Apr 04 09:11:22: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3341.sbt.csv
+Apr 04 09:11:22: INFO  Current active workers is 4
+Apr 04 09:11:22: INFO  Current active workers is 4
+Apr 04 09:11:22: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3350.sbt.csv
+Apr 04 09:11:22: INFO  Current active workers is 4
+Apr 04 09:11:22: INFO  Current active workers is 4
+Apr 04 09:11:22: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3184.cnh.csv
+Apr 04 09:11:22: INFO  Current active workers is 4
+Apr 04 09:11:22: INFO  Current active workers is 4
+Apr 04 09:11:22: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3184.sbt.csv
+Apr 04 09:11:22: DSPLY ETA: Thu Apr  4 09:11:18 MDT 2013
+Apr 04 09:11:22: INFO  Current active workers is 4
+Apr 04 09:11:22: DSPLY ETA: Thu Apr  4 09:11:18 MDT 2013
+Apr 04 09:11:22: INFO  Current active workers is 4
+Apr 04 09:11:22: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3206.cnh.csv
+Apr 04 09:11:22: INFO  Current active workers is 4
+Apr 04 09:11:22: INFO  Current active workers is 4
+Apr 04 09:11:22: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3242.cnh.csv
+Apr 04 09:11:22: INFO  Current active workers is 4
+Apr 04 09:11:22: INFO  Current active workers is 4
+Apr 04 09:11:22: INFO  Now processing ../Mirror_Survey_Photos/MD/20130305/img_3252.sbt.csv
+Apr 04 09:11:22: INFO  Current active workers is 4
+Apr 04 09:11:22: INFO  Current active workers is 4
+Apr 04 09:11:23: INFO  Now processing ../Mirror_Survey_Photos/BR/20120530/img_1855.nmb.csv
+Apr 04 09:11:23: INFO  Current active workers is 4
+Apr 04 09:11:23: INFO  Current active workers is 4
+Apr 04 09:11:23: INFO  Now processing ../Mirror_Survey_Photos/BR/20120530/img_1854.nmb.csv
+Apr 04 09:11:23: DSPLY ETA: Thu Apr  4 09:11:18 MDT 2013
+Apr 04 09:11:23: INFO  Current active workers is 4
+Apr 04 09:11:23: DSPLY ETA: Thu Apr  4 09:11:18 MDT 2013
+Apr 04 09:11:23: INFO  Current active workers is 4
+Apr 04 09:11:23: INFO  Now processing ../Mirror_Survey_Photos/BR/20120530/img_1862.nmb.csv
+Apr 04 09:11:23: INFO  Current active workers is 4
+Apr 04 09:11:23: INFO  Current active workers is 4
+Apr 04 09:11:23: INFO  Now processing ../Mirror_Survey_Photos/BR/20120531/img_2157.mal.csv
+Apr 04 09:11:23: INFO  Current active workers is 4
+Apr 04 09:11:23: INFO  Current active workers is 4
+Apr 04 09:11:23: INFO  Now processing ../Mirror_Survey_Photos/LR/20120515/img_1680.cnh.csv
+Apr 04 09:11:23: INFO  Current active workers is 4
+Apr 04 09:11:23: INFO  Current active workers is 4
+Apr 04 09:11:23: INFO  Now processing ../Mirror_Survey_Photos/LR/20120424/img_1568.cnh.csv
+Apr 04 09:11:23: INFO  Current active workers is 4
+Apr 04 09:11:23: INFO  Current active workers is 4
+Apr 04 09:11:23: INFO  Now processing ../Mirror_Survey_Photos/LR/20120424/img_1537.cnh.csv
+Apr 04 09:11:23: DSPLY ETA: Thu Apr  4 09:11:18 MDT 2013
+Apr 04 09:11:23: INFO  Current active workers is 4
+Apr 04 09:11:23: DSPLY ETA: Thu Apr  4 09:11:18 MDT 2013
+Apr 04 09:11:23: INFO  Current active workers is 4
+Apr 04 09:11:23: DSPLY ETA: Thu Apr  4 09:11:18 MDT 2013
+Apr 04 09:11:23: INFO  Current active workers is 4
+Apr 04 09:11:23: INFO  Now processing ../Mirror_Survey_Photos/LR/20120424/img_1542.cnh.csv
+Apr 04 09:11:23: INFO  Current active workers is 4
+Apr 04 09:11:23: INFO  Now processing ../Mirror_Survey_Photos/LR/20120424/img_1538.cnh.csv
+Apr 04 09:11:23: INFO  Current active workers is 4
+Apr 04 09:11:23: INFO  Current active workers is 4
+Apr 04 09:11:24: INFO  Now processing ../Mirror_Survey_Photos/LR/20120424/img_1564.cnh.csv
+Apr 04 09:11:24: INFO  Current active workers is 4
+Apr 04 09:11:24: INFO  Current active workers is 4
+Apr 04 09:11:24: INFO  Now processing ../Mirror_Survey_Photos/LR/20120424/img_1422.cnh.csv
+Apr 04 09:11:24: INFO  Current active workers is 4
+Apr 04 09:11:24: INFO  Current active workers is 4
+Apr 04 09:11:24: INFO  Current active workers is 3
+Apr 04 09:11:24: INFO  Current active workers is 3
+Apr 04 09:11:24: INFO  Current active workers is 2
+Apr 04 09:11:24: INFO  Current active workers is 2
+Apr 04 09:11:24: INFO  Current active workers is 1
+Apr 04 09:11:24: INFO  Current active workers is 1
+Apr 04 09:11:24: DSPLY Total processing time (hh:mm:ss): 00:00:06
+Apr 04 09:11:24: DSPLY Finished. Consult ppss_dir/job_log for job output.

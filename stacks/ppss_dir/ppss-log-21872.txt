@@ -1,0 +1,18 @@
+Apr 04 23:59:25: DSPLY 
+Apr 04 23:59:25: DSPLY =========================================================
+Apr 04 23:59:25: DSPLY                        |P|P|S|S|                         
+Apr 04 23:59:25: DSPLY Distributed Parallel Processing Shell Script vers. 2.97
+Apr 04 23:59:25: DSPLY =========================================================
+Apr 04 23:59:25: DSPLY Hostname:		russpc.cosmic.utah.edu
+Apr 04 23:59:25: DSPLY ---------------------------------------------------------
+Apr 04 23:59:25: DSPLY CPU: Intel(R) Core(TM)2 Quad CPU    Q8400  @ 2.66GHz
+Apr 04 23:59:25: DSPLY Found 4 logic processors.
+Apr 04 23:59:25: DSPLY Starting 4 parallel workers.
+Apr 04 23:59:25: DSPLY ---------------------------------------------------------
+Apr 04 23:59:25: INFO  Current active workers is 4
+Apr 04 23:59:26: INFO  Current active workers is 3
+Apr 04 23:59:26: INFO  Current active workers is 2
+Apr 04 23:59:26: INFO  Current active workers is 1
+Apr 04 23:59:26: DSPLY Total processing time (hh:mm:ss): 00:00:01
+Apr 04 23:59:26: DSPLY 0 failed items.
+Apr 04 23:59:26: DSPLY Finished. Consult ppss_dir/job_log for job output.

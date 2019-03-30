@@ -1,0 +1,4 @@
+h/file 0 starfits.hbook ! N
+nt/creat 1 'Thomas Star Photo Fit Bootstraps' nvar=11 chrzpa=//LUN1 nprime=100000 varlist=site mir nparm iboot azi elev rot mcd roc nstar chi2
+nt/read 1 mirror_geometry.nparm.dat ! ! 10000000
+for/close 0

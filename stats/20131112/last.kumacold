@@ -1,0 +1,57 @@
+*** Begin of history file: Tue Nov 12 10:30:42 2013
+h/file 0 starfits.hbook 8192
+h/file 0 starfits.hbook
+nt/print 1
+nt/plot 1.chi2 site=1.and.mir=1.and.nparm=11
+nt/plot 1.chi2 site=1.and.mir=1.and.nparm=15
+nt/plot 1.chi2 site=1.and.mir=1.and.nparm=15 chi2<4
+nt/plot 1.rot site=1.and.mir=1.and.nparm=15
+nt/plot 1.rot site=1.and.mir=0.and.nparm=15
+nt/plot 1.rot site=1.and.mir=2.and.nparm=15
+nt/plot 1.rot%mcd site=1.and.mir=2.and.nparm=15
+nt/plot 1.rot%roc site=1.and.mir=2.and.nparm=15
+nt/plot 1.rot%azi site=1.and.mir=2.and.nparm=15
+nt/plot 1.rot%elev site=1.and.mir=2.and.nparm=15
+nt/plot 1.rot%chi2 site=1.and.mir=2.and.nparm=15
+nt/plot 1.rot%chi2 site=1.and.mir=2.and.nparm=15.and.chi2<5
+nt/plot 1.rot%chi2 site=1.and.mir=2.and.nparm=15.and.chi2<2
+nt/plot 1.chi2%mir site=1.and.nparm=15
+nt/plot 1.chi2%mir site=1.and.nparm=15.and.chi2<20
+nt/plot 1.chi2%mir site=1.and.nparm=15.and.chi2<10
+nt/plot 1.chi2%mir site=1
+nt/plot 1.chi2%mir site=1.and.chi2<20
+nt/plot 1.chi2 site=1.and.chi2<20.and.mir=3
+nt/plot 1.chi2 site=1.and.chi2<20.and.mir=1
+nt/plot 1.chi2 site=1.and.chi2<20.and.mir=2
+nt/plot 1.chi2 site=1.and.chi2<20.and.mir=3
+nt/plot 1.chi2 site=1.and.chi2<20.and.mir=4
+nt/plot 1.chi2 site=1.and.chi2<20.and.mir=5
+nt/plot 1.chi2 site=1.and.chi2<20.and.mir=6
+nt/plot 1.chi2 site=1.and.chi2<20.and.mir=7
+nt/plot 1.chi2 site=1.and.chi2<20.and.mir=8
+nt/plot 1.chi2 site=1.and.chi2<20.and.mir=9
+nt/plot 1.chi2 site=1.and.chi2<20.and.mir=10
+nt/plot 1.chi2 site=1.and.chi2<20.and.mir=11
+nt/plot 1.chi2
+nt/plot 1.chi2 chi2<20
+nt/plot 1.chi2 chi2<10
+opt logy
+nt/plot 1.chi2 chi2<10
+nt/plot 1.chi2 chi2<9
+nt/plot 1.chi2 chi2<8
+op tliny
+opt liny
+op tliny
+opt liny
+nt/plot 1.chi2 chi2<8
+nt/plot 1.chi2%site chi2<8
+nt/plot 1.chi2%site chi2<8 -prof
+nt/plot 1.chi2%site chi2<8 -profs
+nt/plot 1.chi2%site chi2<8 -prof
+nt/plot 1.chi2%mir chi2<8 -prof
+nt/plot 1.chi2%mir chi2<8 -profs
+nt/plot 1.chi2%rot chi2<8
+nt/plot 1.chi2%rot chi2<8.and.naprm=15
+nt/plot 1.chi2%rot chi2<8.and.nparm=15
+exit
+*** End   of history file: Tue Nov 12 10:45:28 2013

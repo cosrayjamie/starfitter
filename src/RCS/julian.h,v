@@ -1,0 +1,27 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2013.10.03.19.01.55;	author thomas;	state Exp;
+branches;
+next	;
+
+
+desc
+@Initial revision 20131003
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@double julian( int year, int month, int day, int hour, int minute, double second);
+void jdate( double jd, int *year, int *month, int *day, int *hour, int *minute, double *second);
+void doy2md(int year, int doy, int *month, int *day);
+@

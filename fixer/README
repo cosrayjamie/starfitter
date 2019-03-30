@@ -1,0 +1,25 @@
+These scripts are used to remove unmatched stars.
+
+Run ./step1.sh
+
+This will create a file called csvs.txt
+
+Look in the file. It will contain a list of .csv files that had unmatched stars. 
+
+If it is empty then either all stars were matched or you need to redo the processing (i.e. ./reset.sh)
+
+If there were .csv files with unmatched stars continue on to run ./step2.sh
+
+./step2.sh will create the file ./step3.sh
+
+Look at ./step3.sh and verify that it makes sense. If all looks good, run it.
+
+./step3.sh
+
+And finally,
+
+./step4.sh
+
+Now you should run ./reset.sh in the main starfitter directory to restart the star processing.
+
+

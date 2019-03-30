@@ -1,0 +1,11 @@
+  
+--
+  m.e = cos(theta)*cos(phi);
+  m.n = cos(theta)*sin(phi);
+  m.u = sin(theta);
+  xp.e = cos(psi)*sin(phi) - sin(psi)*sin(theta)*cos(phi);
+  xp.n = -(cos(psi)*cos(phi) + sin(psi)*sin(theta)*sin(phi));
+  xp.u = sin(psi)*cos(theta);
+  yp.e = -(sin(psi)*sin(phi) + cos(psi)*sin(theta)*cos(phi));
+  yp.n = sin(psi)*cos(phi) - cos(psi)*sin(theta)*sin(phi);
+  yp.u = cos(psi)*cos(theta);

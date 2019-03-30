@@ -1,0 +1,25 @@
+Processing report:
+
+Middle Drum m28 9/20/2018 09:46:40.00
+Photo: /home/joshpeterson/StarStuff/starfitter/Mirror_Survey_Photos/TAX4/m28_trial_2/img_0025.jaz.csv
+
+2 stars were found in the CSV file.
+
+1. (1021.062,499.215)
+2. (683.412,297.934)
+
+1 out of 13 potential matches were identified.
+
+1. (1021.062,499.215) => (12.726,1.504) -> HD074739 mag: 4.03 (13.114,1.845) delta: (-0.388,-0.341)
+2. (683.412,297.934) => (-0.552,-6.440) not matched, closest star is HD074442 mag: 3.94 (-1.276,-9.103) delta: (0.724,2.663)
+3. HD074198 mag: 4.67 (2.706,-5.104)
+4. HD066216 mag: 4.94 (1.779,13.615)
+5. HD069897 mag: 5.10 (4.723,7.971)
+6. HD078515 mag: 5.15 (10.287,-12.182)
+7. HD076219 mag: 5.24 (14.257,-1.630)
+8. HD067228 mag: 5.30 (-5.825,6.010)
+9. HD072292 mag: 5.34 (-1.306,-2.976)
+10. HD072094 mag: 5.37 (-4.705,-5.110)
+11. HD064648 mag: 5.38 (-11.044,8.239)
+12. HD068257 mag: 5.44 (-10.141,0.589)
+13. HD077350 mag: 5.45 (11.594,-7.561)

@@ -1,0 +1,1593 @@
+
+
+*******************************************************************************
+Wed Aug  7 11:45:20 2013
+
+
+FIT:    data read from "twilight2.dat" using 1:($2-$1)
+        format = x:z
+        #datapoints = 5179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 94.2844           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.707183
+
+initial set of free parameter values
+
+a               = 0.14
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 43.5473
+rel. change during last iteration : -4.34215e-08
+
+degrees of freedom    (FIT_NDF)                        : 5178
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0917064
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00841006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 3.86681e-05      +/- 0.001802     (4660%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Wed Aug  7 11:45:39 2013
+
+
+FIT:    data read from "twilight2.dat" using 1:($2-$1)
+        format = x:z
+        #datapoints = 5179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 94.2844           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 262.113
+
+initial set of free parameter values
+
+w               = 0.5
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 94.1834
+rel. change during last iteration : -1.40462e-06
+
+degrees of freedom    (FIT_NDF)                        : 5178
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.134867
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0181892
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+w               = 0.500337         +/- 7.151e-06    (0.001429%)
+
+
+correlation matrix of the fit parameters:
+
+               w      
+w               1.000 
+
+
+*******************************************************************************
+Wed Aug  7 11:45:59 2013
+
+
+FIT:    data read from "twilight2.dat" using 1:($2-$1)
+        format = x:z
+        #datapoints = 5179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 94.1834           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 185.314
+
+initial set of free parameter values
+
+w               = 0.500337
+b               = 14000
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 94.1832
+rel. change during last iteration : -2.65683e-06
+
+degrees of freedom    (FIT_NDF)                        : 5177
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.13488
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0181926
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+w               = 0.500339         +/- 7.459e-06    (0.001491%)
+b               = 14000            +/- 0.3916       (0.002797%)
+
+
+correlation matrix of the fit parameters:
+
+               w      b      
+w               1.000 
+b               0.284  1.000 
+
+
+*******************************************************************************
+Wed Aug  7 11:46:06 2013
+
+
+FIT:    data read from "twilight2.dat" using 1:($2-$1)
+        format = x:z
+        #datapoints = 5179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 94.1832           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 151.308
+
+initial set of free parameter values
+
+w               = 0.500339
+b               = 14000
+c               = 0.34
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 93.3527
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 5176
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.134297
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0180357
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+w               = 0.501396         +/- 7.43e-06     (0.001482%)
+b               = 14010.3          +/- 0.3791       (0.002706%)
+c               = 0.353365         +/- 0.001866     (0.5281%)
+
+
+correlation matrix of the fit parameters:
+
+               w      b      c      
+w               1.000 
+b               0.275  1.000 
+c              -0.001  0.001  1.000 
+
+
+*******************************************************************************
+Wed Aug  7 11:46:15 2013
+
+
+FIT:    data read from "twilight2.dat" using 1:($2-$1)
+        format = x:z
+        #datapoints = 5179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 93.3527           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 130.629
+
+initial set of free parameter values
+
+w               = 0.501396
+b               = 14010.3
+c               = 0.353365
+a               = 0.14
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 42.6293
+rel. change during last iteration : -1.03799e-10
+
+degrees of freedom    (FIT_NDF)                        : 5175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.090761
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00823755
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+w               = 0.501625         +/- 0.01831      (3.651%)
+b               = 14010.3          +/- 748.8        (5.345%)
+c               = 0.353313         +/- 0.001261     (0.357%)
+a               = -7.28047e-05     +/- 0.003634     (4992%)
+
+
+correlation matrix of the fit parameters:
+
+               w      b      c      a      
+w               1.000 
+b               0.737  1.000 
+c              -0.001 -0.001  1.000 
+a              -0.850 -0.756  0.000  1.000 
+
+
+*******************************************************************************
+Wed Aug  7 11:46:33 2013
+
+
+FIT:    data read from "twilight2.dat" using 1:($2-$1)
+        format = x:z
+        #datapoints = 5179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 93.4307           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 150.857
+
+initial set of free parameter values
+
+w               = 0.501625
+b               = 14010.3
+c               = 0.353313
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 93.4307
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 5176
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.134353
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0180508
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+w               = 0.501625         +/- 7.428e-06    (0.001481%)
+b               = 14010.3          +/- 0.3775       (0.002694%)
+c               = 0.353313         +/- 0.001867     (0.5284%)
+
+
+correlation matrix of the fit parameters:
+
+               w      b      c      
+w               1.000 
+b               0.273  1.000 
+c               0.000  0.001  1.000 
+
+
+*******************************************************************************
+Wed Aug  7 11:49:15 2013
+
+
+FIT:    data read from "twilight2.dat" using 1:($2-$1)
+        format = x:z
+        #datapoints = 5179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 108.13            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 130.659
+
+initial set of free parameter values
+
+w               = 0.501625
+b               = 14010.3
+c               = 0.353313
+d               = 0.3
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 93.2628
+rel. change during last iteration : -6.09497e-16
+
+degrees of freedom    (FIT_NDF)                        : 5175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.134245
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0180218
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+w               = 0.503005         +/- 1.41e-05     (0.002804%)
+b               = 14040.9          +/- 1.496        (0.01065%)
+c               = 0.538905         +/- 0.0938       (17.4%)
+d               = 0.353337         +/- 0.001865     (0.5279%)
+
+
+correlation matrix of the fit parameters:
+
+               w      b      c      d      
+w               1.000 
+b              -0.791  1.000 
+c              -0.849  0.970  1.000 
+d               0.000 -0.001 -0.001  1.000 
+
+
+*******************************************************************************
+Wed Aug  7 11:49:38 2013
+
+
+FIT:    data read from "twilight2.dat" using 1:($2-$1)
+        format = x:z
+        #datapoints = 5179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 93.2628           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 115.95
+
+initial set of free parameter values
+
+a               = 0.14
+w               = 0.503005
+b               = 14040.9
+c               = 0.538905
+d               = 0.353337
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 42.6293
+rel. change during last iteration : -6.13336e-07
+
+degrees of freedom    (FIT_NDF)                        : 5174
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0907697
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00823915
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9.05202e-05      +/- 9.564e+05    (1.057e+12%)
+w               = 0.503642         +/- 0.01475      (2.929%)
+b               = 14040.9          +/- 5.025e+11    (3.579e+09%)
+c               = 0.5209           +/- 2.538e+10    (4.873e+12%)
+d               = 0.353313         +/- 0.001261     (0.357%)
+
+
+correlation matrix of the fit parameters:
+
+               a      w      b      c      d      
+a               1.000 
+w               0.009  1.000 
+b               1.000  0.009  1.000 
+c               1.000  0.009  1.000  1.000 
+d              -0.007  0.001 -0.007 -0.007  1.000 
+
+
+*******************************************************************************
+Wed Aug  7 11:52:02 2013
+
+
+FIT:    data read from "twilight2.dat" using 1:($2-$1)
+        format = x:z
+        #datapoints = 5179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 69.7042           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 190.17
+
+initial set of free parameter values
+
+a               = 0.1
+w               = 0.0172024
+b               = 14040.9
+c               = 0.5209
+d               = 0.353313
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 42.6223
+rel. change during last iteration : -4.9317e-06
+
+degrees of freedom    (FIT_NDF)                        : 5174
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0907623
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00823779
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -0.000958517     +/- 0.002863     (298.7%)
+w               = 0.0152509        +/- 0.00305      (20%)
+b               = 14040.9          +/- 123.4        (0.8789%)
+c               = 0.46057          +/- 0.09245      (20.07%)
+d               = 0.353334         +/- 0.001262     (0.357%)
+
+
+correlation matrix of the fit parameters:
+
+               a      w      b      c      d      
+a               1.000 
+w              -0.741  1.000 
+b              -0.304  0.072  1.000 
+c              -0.689  0.982 -0.095  1.000 
+d              -0.002 -0.013  0.016 -0.016  1.000 
+
+
+*******************************************************************************
+Wed Aug  7 11:52:27 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1):($2-$1)
+        format = x:z
+        #datapoints = 5179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 42.6223           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.1397
+
+initial set of free parameter values
+
+a               = -0.000958517
+w               = 0.0152509
+b               = 14040.9
+c               = 0.46057
+d               = 0.353334
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 42.6223
+rel. change during last iteration : -9.72812e-07
+
+degrees of freedom    (FIT_NDF)                        : 5174
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0907622
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00823778
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -0.00100674      +/- 0.002864     (284.5%)
+w               = 0.0151576        +/- 0.002918     (19.25%)
+b               = 14040.9          +/- 118.3        (0.8424%)
+c               = 0.460572         +/- 0.08867      (19.25%)
+d               = 0.353332         +/- 0.001262     (0.3571%)
+
+
+correlation matrix of the fit parameters:
+
+               a      w      b      c      d      
+a               1.000 
+w              -0.743  1.000 
+b              -0.308  0.084  1.000 
+c              -0.692  0.982 -0.083  1.000 
+d              -0.009  0.000  0.023 -0.005  1.000 
+
+
+*******************************************************************************
+Wed Aug  7 11:53:39 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1):($2-$1)
+        format = x:z
+        #datapoints = 5179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 142.032           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.00522663
+
+initial set of free parameter values
+
+b               = 14040.9
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 142.032
+rel. change during last iteration : -8.00434e-16
+
+degrees of freedom    (FIT_NDF)                        : 5178
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.165619
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0274298
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+b               = 14040.9          +/- 0.4403       (0.003136%)
+
+
+correlation matrix of the fit parameters:
+
+               b      
+b               1.000 
+
+
+*******************************************************************************
+Wed Aug  7 11:53:50 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1):($2-$1)
+        format = x:z
+        #datapoints = 5179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 142.032           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 25.5288
+
+initial set of free parameter values
+
+b               = 14040.9
+c               = 0.460572
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 141.934
+rel. change during last iteration : -7.646e-06
+
+degrees of freedom    (FIT_NDF)                        : 5177
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.165578
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0274162
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+b               = 14041.1          +/- 0.872        (0.00621%)
+c               = 0.461265         +/- 0.0001266    (0.02744%)
+
+
+correlation matrix of the fit parameters:
+
+               b      c      
+b               1.000 
+c              -0.863  1.000 
+
+
+*******************************************************************************
+Wed Aug  7 11:53:57 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1):($2-$1)
+        format = x:z
+        #datapoints = 5179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 141.934           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 20.7515
+
+initial set of free parameter values
+
+b               = 14041.1
+c               = 0.461265
+d               = 0.353332
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 141.934
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 5176
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.165594
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0274215
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+b               = 14041.1          +/- 0.8722       (0.006212%)
+c               = 0.461265         +/- 0.0001266    (0.02745%)
+d               = 0.353332         +/- 0.002301     (0.6513%)
+
+
+correlation matrix of the fit parameters:
+
+               b      c      d      
+b               1.000 
+c              -0.863  1.000 
+d              -0.017  0.016  1.000 
+
+
+*******************************************************************************
+Wed Aug  7 11:54:12 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1):($2-$1)
+        format = x:z
+        #datapoints = 5179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 141.934           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 17.9748
+
+initial set of free parameter values
+
+b               = 14041.1
+c               = 0.461265
+d               = 0.353332
+a               = 0.2
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 42.5905
+rel. change during last iteration : -5.80866e-06
+
+degrees of freedom    (FIT_NDF)                        : 5175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0907197
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00823006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+b               = 14041.1          +/- 27.06        (0.1927%)
+c               = 0.461577         +/- 0.00381      (0.8254%)
+d               = 0.353339         +/- 0.001261     (0.3568%)
+a               = 0.00387625       +/- 0.00196      (50.57%)
+
+
+correlation matrix of the fit parameters:
+
+               b      c      d      a      
+b               1.000 
+c              -0.879  1.000 
+d              -0.014  0.012  1.000 
+a               0.410 -0.337  0.003  1.000 
+
+
+*******************************************************************************
+Wed Aug  7 11:54:55 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1):($2-$1)
+        format = x:z
+        #datapoints = 5179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 146.638           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 9.05364
+
+initial set of free parameter values
+
+b               = 14041.1
+c               = 0.461577
+d               = 0.353339
+a               = 0.2
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 42.6029
+rel. change during last iteration : -8.40769e-06
+
+degrees of freedom    (FIT_NDF)                        : 5175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0907328
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00823245
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+b               = 14041.1          +/- 61.52        (0.4381%)
+c               = 0.465459         +/- 0.009026     (1.939%)
+d               = 0.353345         +/- 0.001261     (0.357%)
+a               = 0.00333092       +/- 0.001826     (54.82%)
+
+
+correlation matrix of the fit parameters:
+
+               b      c      d      a      
+b               1.000 
+c              -0.879  1.000 
+d               0.030 -0.026  1.000 
+a               0.211 -0.176  0.019  1.000 
+
+
+*******************************************************************************
+Wed Aug  7 11:55:25 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1):($2-$1)
+        format = x:z
+        #datapoints = 5179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 84.1736           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.00169292
+
+initial set of free parameter values
+
+b               = 14041.1
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 81.7822
+rel. change during last iteration : -2.14775e-07
+
+degrees of freedom    (FIT_NDF)                        : 5178
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.125675
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0157942
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+b               = 14108.5          +/- 1.034        (0.007327%)
+
+
+correlation matrix of the fit parameters:
+
+               b      
+b               1.000 
+
+
+*******************************************************************************
+Wed Aug  7 11:55:33 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1):($2-$1)
+        format = x:z
+        #datapoints = 5179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 81.7822           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.501854
+
+initial set of free parameter values
+
+b               = 14108.5
+a               = 0.13
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 42.4912
+rel. change during last iteration : -1.56532e-06
+
+degrees of freedom    (FIT_NDF)                        : 5177
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0905963
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00820769
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+b               = 14108.3          +/- 13.45        (0.09532%)
+a               = 0.00727341       +/- 0.001791     (24.62%)
+
+
+correlation matrix of the fit parameters:
+
+               b      a      
+b               1.000 
+a               0.138  1.000 
+
+
+*******************************************************************************
+Wed Aug  7 11:56:00 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1):($2-$1)
+        format = x:z
+        #datapoints = 5179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 81.7823           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 428.433
+
+initial set of free parameter values
+
+b               = 14108.3
+w               = 0.00860121
+
+After 22 iterations the fit converged.
+final sum of squares of residuals : 67.5133
+rel. change during last iteration : -7.03747e-06
+
+degrees of freedom    (FIT_NDF)                        : 5177
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.114197
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.013041
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+b               = 14179.1          +/- 1.751        (0.01235%)
+w               = 0.0088361        +/- 5.102e-06    (0.05774%)
+
+
+correlation matrix of the fit parameters:
+
+               b      w      
+b               1.000 
+w               0.854  1.000 
+
+
+*******************************************************************************
+Wed Aug  7 11:57:00 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1):($2-$1)
+        format = x:z
+        #datapoints = 5179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 67.5133           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 345.559
+
+initial set of free parameter values
+
+b               = 14179.1
+w               = 0.0088361
+c               = 0.465459
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 67.461
+rel. change during last iteration : -8.94912e-06
+
+degrees of freedom    (FIT_NDF)                        : 5176
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.114164
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0130334
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+b               = 14179.1          +/- 1.819        (0.01283%)
+w               = 0.0120031        +/- 4.768e-05    (0.3973%)
+c               = 0.633045         +/- 0.002589     (0.4089%)
+
+
+correlation matrix of the fit parameters:
+
+               b      w      c      
+b               1.000 
+w              -0.144  1.000 
+c              -0.267  0.989  1.000 
+
+
+*******************************************************************************
+Wed Aug  7 11:57:09 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1):($2-$1)
+        format = x:z
+        #datapoints = 5179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 67.461            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 253.634
+
+initial set of free parameter values
+
+b               = 14179.1
+w               = 0.0120031
+c               = 0.633045
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 67.4607
+rel. change during last iteration : -4.53908e-06
+
+degrees of freedom    (FIT_NDF)                        : 5176
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.114164
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0130334
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+b               = 14179.1          +/- 1.818        (0.01283%)
+w               = 0.0120059        +/- 4.77e-05     (0.3973%)
+c               = 0.633045         +/- 0.002589     (0.4089%)
+
+
+correlation matrix of the fit parameters:
+
+               b      w      c      
+b               1.000 
+w              -0.144  1.000 
+c              -0.266  0.989  1.000 
+
+
+*******************************************************************************
+Wed Aug  7 11:57:10 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1):($2-$1)
+        format = x:z
+        #datapoints = 5179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 67.4607           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 253.721
+
+initial set of free parameter values
+
+b               = 14179.1
+w               = 0.0120059
+c               = 0.633045
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 67.4607
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 5176
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.114164
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0130334
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+b               = 14179.1          +/- 1.818        (0.01283%)
+w               = 0.0120059        +/- 4.77e-05     (0.3973%)
+c               = 0.633045         +/- 0.002589     (0.4089%)
+
+
+correlation matrix of the fit parameters:
+
+               b      w      c      
+b               1.000 
+w              -0.144  1.000 
+c              -0.266  0.989  1.000 
+
+
+*******************************************************************************
+Wed Aug  7 11:57:17 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1):($2-$1)
+        format = x:z
+        #datapoints = 5179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 67.4607           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 219.73
+
+initial set of free parameter values
+
+b               = 14179.1
+w               = 0.0120059
+c               = 0.633045
+d               = 0.353345
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 67.4607
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 5175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.114175
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0130359
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+b               = 14179.1          +/- 1.819        (0.01283%)
+w               = 0.0120059        +/- 4.772e-05    (0.3975%)
+c               = 0.633045         +/- 0.00259      (0.4091%)
+d               = 0.353345         +/- 0.001588     (0.4493%)
+
+
+correlation matrix of the fit parameters:
+
+               b      w      c      d      
+b               1.000 
+w              -0.143  1.000 
+c              -0.266  0.989  1.000 
+d              -0.021 -0.029 -0.025  1.000 
+
+
+*******************************************************************************
+Wed Aug  7 11:58:02 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1):($2-$1)
+        format = x:z
+	y range restricted to [0.00000 : 1000.00]
+BREAK:          No data to fit 
+
+
+
+*******************************************************************************
+Wed Aug  7 11:59:20 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1):($2-$1)
+        format = x:z
+	y range restricted to [0.00000 : 1000.00]
+BREAK:          No data to fit 
+
+
+
+*******************************************************************************
+Wed Aug  7 11:59:52 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1):($2-$1)
+        format = x:z
+	y range restricted to [0.00000 : 1000.00]
+BREAK:          No data to fit 
+
+
+
+*******************************************************************************
+Wed Aug  7 12:01:42 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1):($2-$1)
+        format = x:z
+	y range restricted to [0.00000 : 1000.00]
+BREAK:          No data to fit 
+
+
+
+*******************************************************************************
+Wed Aug  7 12:01:46 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1):($2-$1)
+        format = x:z
+	y range restricted to [0.00000 : 1000.00]
+BREAK:          No data to fit 
+
+
+
+*******************************************************************************
+Wed Aug  7 12:01:52 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1):($2-$1)
+        format = x:z
+	y range restricted to [0.00000 : 1000.00]
+BREAK:          No data to fit 
+
+
+
+*******************************************************************************
+Wed Aug  7 12:02:31 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1):($2-$1)
+        format = x:z
+	y range restricted to [0.00000 : 1000.00]
+BREAK:          No data to fit 
+
+
+
+*******************************************************************************
+Wed Aug  7 12:02:58 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1-b):($2-$1)
+        format = x:z
+	y range restricted to [0.00000 : 1000.00]
+        #datapoints = 968
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.0817433         delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-12
+ lambda	  : 1
+
+initial set of free parameter values
+
+d               = 0.353345
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0802701
+rel. change during last iteration : -1.38311e-15
+
+degrees of freedom    (FIT_NDF)                        : 967
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00911095
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.30094e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+d               = 0.354579         +/- 0.0002928    (0.08259%)
+
+
+correlation matrix of the fit parameters:
+
+               d      
+d               1.000 
+
+
+*******************************************************************************
+Wed Aug  7 12:03:05 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1-b):($2-$1)
+        format = x:z
+	y range restricted to [0.00000 : 1000.00]
+        #datapoints = 968
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.0802701         delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-12
+ lambda	  : 0.870091
+
+initial set of free parameter values
+
+d               = 0.354579
+a               = 0.13
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0774863
+rel. change during last iteration : -2.3283e-15
+
+degrees of freedom    (FIT_NDF)                        : 966
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0089562
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.02135e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+d               = 0.354463         +/- 0.0002885    (0.0814%)
+a               = 0.127629         +/- 0.0004024    (0.3153%)
+
+
+correlation matrix of the fit parameters:
+
+               d      a      
+d               1.000 
+a               0.068  1.000 
+
+
+*******************************************************************************
+Wed Aug  7 12:03:11 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1-b):($2-$1)
+        format = x:z
+	y range restricted to [0.00000 : 1000.00]
+        #datapoints = 968
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.0774863         delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-12
+ lambda	  : 0.71228
+
+initial set of free parameter values
+
+d               = 0.354463
+a               = 0.127629
+c               = 0.633045
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0774579
+rel. change during last iteration : -7.87433e-13
+
+degrees of freedom    (FIT_NDF)                        : 965
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0089592
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.02672e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+d               = 0.354439         +/- 0.0002915    (0.08225%)
+a               = 0.127618         +/- 0.000403     (0.3158%)
+c               = 0.634991         +/- 0.003272     (0.5153%)
+
+
+correlation matrix of the fit parameters:
+
+               d      a      c      
+d               1.000 
+a               0.074  1.000 
+c              -0.141 -0.049  1.000 
+
+
+*******************************************************************************
+Wed Aug  7 12:03:16 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1-b):($2-$1)
+        format = x:z
+	y range restricted to [0.00000 : 1000.00]
+        #datapoints = 968
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.0774579         delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-12
+ lambda	  : 0.617521
+
+initial set of free parameter values
+
+d               = 0.354439
+a               = 0.127618
+c               = 0.634991
+w               = 365.25
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.0774579
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 964
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00896384
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.03505e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+d               = 0.354439         +/- 0.0002919    (0.08236%)
+a               = 0.127618         +/- 0.002564     (2.009%)
+c               = 0.634991         +/- 0.1672       (26.33%)
+w               = 365.25           +/- 0.2625       (0.07186%)
+
+
+correlation matrix of the fit parameters:
+
+               d      a      c      w      
+d               1.000 
+a               0.051  1.000 
+c              -0.043 -0.988  1.000 
+w               0.040  0.988 -1.000  1.000 
+
+
+*******************************************************************************
+Wed Aug  7 12:04:05 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1-b):($2-$1)
+        format = x:z
+	y range restricted to [0.00000 : 1000.00]
+        #datapoints = 968
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 16.2009           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-12
+ lambda	  : 0.591523
+
+initial set of free parameter values
+
+d               = 0.354439
+a               = 0.127618
+c               = 0.634991
+w               = 365.25
+
+The fit was stopped by the user after 832 iterations.
+final sum of squares of residuals : 7.84118
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 964
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0901887
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00813401
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+d               = 0.373786         +/- 0.04527      (12.11%)
+a               = -0.0510566       +/- 0.09066      (177.6%)
+c               = -4.40393         +/- 3.707        (84.18%)
+w               = 372.761          +/- 6.22         (1.669%)
+
+
+correlation matrix of the fit parameters:
+
+               d      a      c      w      
+d               1.000 
+a              -0.998  1.000 
+c              -0.993  0.996  1.000 
+w               0.994 -0.996 -1.000  1.000 
+
+
+*******************************************************************************
+Wed Aug  7 12:04:46 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1-b):($2-$1)
+        format = x:z
+	y range restricted to [0.00000 : 1000.00]
+        #datapoints = 968
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 8.04397           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-12
+ lambda	  : 0.0261397
+
+initial set of free parameter values
+
+w               = 372.761
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 7.84594
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 967
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.090076
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00811369
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+w               = 373.373          +/- 0.1108       (0.02967%)
+
+
+correlation matrix of the fit parameters:
+
+               w      
+w               1.000 
+
+
+*******************************************************************************
+Wed Aug  7 12:04:54 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1-b):($2-$1)
+        format = x:z
+	y range restricted to [0.00000 : 1000.00]
+        #datapoints = 968
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 7.84594           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-12
+ lambda	  : 0.431863
+
+initial set of free parameter values
+
+w               = 373.373
+a               = -0.0598718
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 7.84306
+rel. change during last iteration : -9.78767e-13
+
+degrees of freedom    (FIT_NDF)                        : 966
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0901061
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00811911
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+w               = 373.378          +/- 0.1169       (0.0313%)
+a               = -0.0570103       +/- 0.004765     (8.357%)
+
+
+correlation matrix of the fit parameters:
+
+               w      a      
+w               1.000 
+a              -0.089  1.000 
+
+
+*******************************************************************************
+Wed Aug  7 12:04:59 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1-b):($2-$1)
+        format = x:z
+	y range restricted to [0.00000 : 1000.00]
+        #datapoints = 968
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 7.84306           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-12
+ lambda	  : 0.35263
+
+initial set of free parameter values
+
+w               = 373.378
+a               = -0.0570103
+b               = 14186
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 7.84306
+rel. change during last iteration : -9.86921e-13
+
+degrees of freedom    (FIT_NDF)                        : 965
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0901528
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00812752
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+w               = 373.378          +/- 0.3186       (0.08534%)
+a               = -0.0570101       +/- 0.005809     (10.19%)
+b               = 14186            +/- 11.77        (0.08299%)
+
+
+correlation matrix of the fit parameters:
+
+               w      a      b      
+w               1.000 
+a              -0.558  1.000 
+b               0.930 -0.572  1.000 
+
+
+*******************************************************************************
+Wed Aug  7 12:05:03 2013
+
+
+FIT:    data read from "twilight2.dat" using ($1-b):($2-$1)
+        format = x:z
+	y range restricted to [0.00000 : 1000.00]
+        #datapoints = 968
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 7.84306           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-12
+ lambda	  : 0.30607
+
+initial set of free parameter values
+
+w               = 373.378
+a               = -0.0570101
+b               = 14186
+c               = -4.76969
+
+After 90 iterations the fit converged.
+final sum of squares of residuals : 7.81808
+rel. change during last iteration : -7.31053e-13
+
+degrees of freedom    (FIT_NDF)                        : 964
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0900557
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00811004
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+w               = 380.767          +/- 5.816        (1.527%)
+a               = -0.0575384       +/- 0.005803     (10.09%)
+b               = 14144.7          +/- 218          (1.541%)
+c               = -9.92583         +/- 6.774        (68.24%)
+
+
+correlation matrix of the fit parameters:
+
+               w      a      b      c      
+w               1.000 
+a              -0.067  1.000 
+b              -0.994  0.003  1.000 
+c              -0.998  0.034  0.998  1.000 
