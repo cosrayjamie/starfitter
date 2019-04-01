@@ -13,6 +13,8 @@ After you have done this you will have a bunch of results in the results directo
 
 At this point, to further refine the results and gain information about error, you could run boot_results.sh.  This program uses bootstrapping to find errors.   Boot_results.sh uses new_starfitter, which requires a current mirror_geometry.dat file (probably with the contents of summary.results), mirror_geometry.tokuno, and .stars.txt files. If something goes wrong look at rejects.err to figure out what went wrong. The results are put into mirror_geometry.nparm.dat.  To find the median and 95% confidence interval run boot_stats.  The program run_boot.sh will run both programs.
 
+TAx4 is very simple to run.  Essentially all you have to run is ./reset.sh and then ./process_TAx4.sh in order to get mirror geometry.
+
 -Josh Peterson
 
 ===============================================================================================================
