@@ -3,17 +3,11 @@ Analyzing Star Photographs
 ===============================================================================================================
 Running star analysis for the first time:
 
-If you have found this file then you have passed the first test.  There are many files in the starfitter directory so hopefully this outline will help future users get a general idea of how everything works. Please read the entire outline before running anything.
+If you have found this file then you have passed the first test.  There are many files in the starfitter directory so hopefully this outline will help future users get a general idea of how everything works and find pointing directions of TAx4 telescope mirrors.
 
-First run the command chmod +x compile.sh and then run compile.sh.  This will, as the name implies, compile all of the programs necessary to analyze star photographs.
+First run the "command chmod +x compile.sh" and then run compile.sh.  This will, as the name implies, compile all of the programs necessary to analyze star photographs.  Then run compileTAx4.sh.  This will recompile transform.c and starfitter.c so that they will process TAx4 mirrors and use the new method that Stan, Jamie, and I developed.
 
-Once everything is compiled run reset.sh.  Reset.sh clears prior results and creates mirror geometries via least squares optimization.  The discriptions below by Stan are very informative and should be read prior to running reset.sh.  It is important to note that reset.sh and process_results.sh, which reset.sh runs, require specific file paths.  Before running these programs the file paths need to be changed to work on the computer being used.
-
-After you have done this you will have a bunch of results in the results directory.  One should probably check process.log (in ~/starfitter) and summary.results (in ~/starfitter/results) to make sure everything worked properly.
-
-At this point, to further refine the results and gain information about error, you could run boot_results.sh.  This program uses bootstrapping to find errors.   Boot_results.sh uses new_starfitter, which requires a current mirror_geometry.dat file (probably with the contents of summary.results), mirror_geometry.tokuno, and .stars.txt files. If something goes wrong look at rejects.err to figure out what went wrong. The results are put into mirror_geometry.nparm.dat.  To find the median and 95% confidence interval run boot_stats.  The program run_boot.sh will run both programs.
-
-TAx4 is very simple to run.  Essentially all you have to run is ./reset.sh and then ./process_TAx4.sh in order to get mirror geometry.
+Next you run reset.sh.  This will match stars to measured positions and produce ideal telescope geometries.
 
 -Josh Peterson
 
