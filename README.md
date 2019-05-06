@@ -3,11 +3,13 @@ Analyzing Star Photographs
 ===============================================================================================================
 Running star analysis for the first time:
 
-If you have found this file then you have passed the first test.  There are many files in the starfitter directory so hopefully this outline will help future users get a general idea of how everything works and find pointing directions of TAx4 telescope mirrors.
+If you have found this file then you have passed the first test.  There are many files in the starfitter directory so hopefully this outline will help future users get a general idea of how everything works and find pointing directions of TAx4 telescope mirrors.  I would strongly advise reading through Stan's summary of the original program if you want to really understand how this program works.  The following is how you run the program for TAx4 telescopes:
 
-First run the "command chmod +x compile.sh" and then run compile.sh.  This will, as the name implies, compile all of the programs necessary to analyze star photographs.  Then run compileTAx4.sh.  This will recompile transform.c and starfitter.c so that they will process TAx4 mirrors and use the new method that Stan, Jamie, and I developed.
+First run the "command chmod +x compile.sh" and then run compile.sh.  This will, as the name implies, compile all of the programs necessary to analyze star photographs.  Then run compileTAx4.sh.  This will recompile a number of files, such as transform.c and starfitter.c, so that they will process TAx4 mirrors and use the new method that Stan, Jamie, and I developed.
 
-Next you run reset.sh.  This will match stars to measured positions and produce ideal telescope geometries.
+Next you run reset.sh.  This will match stars to measured positions and produce ideal telescope geometries.  Due to the change in method, you must include PMT files of the form m??_ t??_ p??.csv with the photo files. The PMT files should contain measured PMT centers from the edge PMTs and a few central PMTs.  The measurements of the central PMTs need to be at the end of the list for the program to work.
+
+Lastly you should run process_TAx4.sh. This will find errors (95 percent confidence intervals) for the geometries via bootstrapping and then print final measurements in a file called ".txt"
 
 -Josh Peterson
 
