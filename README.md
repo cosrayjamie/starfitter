@@ -9,7 +9,9 @@ First run the "command chmod +x compile.sh" and then run compile.sh.  This will,
 
 Next you run reset.sh.  This will match stars to measured positions and produce ideal telescope geometries.  Due to the change in method, you must include PMT files of the form m??_ t??_ p??.csv with the photo files. The PMT files should contain measured PMT centers from the edge PMTs and a few central PMTs.  The measurements of the central PMTs need to be at the end of the list for the program to work.
 
-Lastly you should run process_TAx4.sh. This will find errors (95 percent confidence intervals) for the geometries via bootstrapping and then print final measurements in a file called ".txt"
+Lastly you should run process_TAx4.sh. This will find errors (95 percent confidence intervals) for the geometries via bootstrapping and then print final measurements in a file called "TAx4_Mirror_Geometries.txt".
+
+If you want to include perspective transformations in the process then you can recompile transform.c with the compile command found in compileTAx4.sh with the additional tag "-D HOMO". This may help alleviate tomb-stoning issues if they arrise.
 
 -Josh Peterson
 
