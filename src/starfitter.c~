@@ -160,7 +160,7 @@ int main(int argc, char *argv[])
       if(fabs(ystar)>CUTY[site])continue;
       if(fabs(xmeas[Nstars])>CUTX[site])continue;
       if(fabs(ymeas[Nstars])>CUTY[site])continue;
-      //if(fabs(delta)>CUTD)continue;
+      if(fabs(delta)>CUTD)continue;
 
       Nstars++;
     }
@@ -193,6 +193,7 @@ int main(int argc, char *argv[])
 	}
       //construct the chi2 function and minimize
       chi2min = fit_func(NPARMS, parms, chi2_func);
+      //printf("chi2min = %.03f\n",chi2min);
       for(i=0;i<NPARMS;i++)x[i+1] = (float)parms[i]; //save minimum parameters
       //check if any stars were rejected. If so repeat.
       if(Nstars0 == reject_star(x))break;
@@ -207,6 +208,7 @@ int main(int argc, char *argv[])
 	}
 
       chi2min = fit_func(NPARMS, parms, chi2_func);
+      //printf("chi2min = %.03f\n",chi2min);
       for(i=0;i<NPARMS;i++)x[i+1] = (float)parms[i];
     }
 

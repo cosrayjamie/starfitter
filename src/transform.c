@@ -17,6 +17,7 @@
 #define ytrans(A) ((-((A).x-x0)*sin(theta) + ((A).y-y0)*cos(theta))*scale)
 
 #define RMAX 1.5e0
+#define NumPMTTrans 18
 
 typedef struct VECTOR
 {
@@ -79,8 +80,8 @@ main (int argc, char *argv[])
   double jday;
   double mirnum, trial;
   int index;
-  double TAX4Tran[10][16];
-  double Homo[10][9];
+  double TAX4Tran[NumPMTTrans][17];
+  double Homo[NumPMTTrans][9];
   double normy;
 
   //check if a file argument was provided
@@ -264,7 +265,7 @@ main (int argc, char *argv[])
 
       fprintf (stderr, "root: %s\n", fileroot);
       //check if site number is valid
-      if ((site < 0) || (site > 2))
+      if ((site < 0) || (site > 3))
 	{
 	  fprintf (stderr, "ERROR: Invalid site #%d found in image\7\7\n",
 		   site);
@@ -303,9 +304,15 @@ main (int argc, char *argv[])
 
 #ifdef TAx4
 
-      if (site != 0 || (mir != 25 && mir != 26 && mir != 27 && mir != 28))
+      //throw out any photos that aren't TAx4
+
+      if (site == 1 || site == 2)
 	{
-	  //the photo is not a TAx4 Mirror
+	  continue;
+	}
+
+      if (site == 0 && (mir != 25 && mir != 26 && mir != 27 && mir != 28))
+	{
 	  continue;
 	}
 
@@ -548,7 +555,7 @@ main (int argc, char *argv[])
       
       //find the PMT file in the same directory as the photo and pull out mirror number and trial number
       
-      sprintf (command2, "find %s -type f -name \"m??_t?_p?.csv\"", filepath);
+      sprintf (command2, "find %s -type f -name \"s?_m??_t?_p?.csv\"", filepath);
       
       fprintf (stderr, "command: %s\n", command2);
       jp = popen (command2, "r");
@@ -559,13 +566,15 @@ main (int argc, char *argv[])
 	buffer[strlen (buffer) - 1] = '\0';
 	//here we recover the mirror number and trial number
 	
-	file = strndup (&buffer[strlen (buffer) - 13], 9);
+	file = strndup (&buffer[strlen (buffer) - 16], 12);
 	printf("\n");
 	printf("Found %s.csv\n",file);
 	
-	token = strtok(file, " ,\t_.mtp/");
+	token = strtok(file, " ,\t_.smtp/");
+	sitenum = atoi(token); //store site number
+	token = strtok(file, " ,\t_.smtp/");
 	mirnum = atoi(token); //store mirror number
-	token = strtok(NULL, " ,\t_.mtp/");
+	token = strtok(NULL, " ,\t_.smtp/");
 	trial = atoi(token); //store trial number
 	
 	free(file);
@@ -573,8 +582,16 @@ main (int argc, char *argv[])
       }
       fclose(jp);
       
+      printf("Site Number %.0f Found\n",sitenum);
       printf("Mirror Number %.0f Found\n",mirnum);
       printf("Trial %.0f Found\n", trial);
+
+      if (sitenum - site > (1.0/10000.0))
+	{
+	  printf("Recovered incorrect site number from PMT file\n");
+	  printf("Be sure that the correct PMT file is with the photo set\n");
+	  continue;
+	}
       
       if (mirnum - mir > (1.0/10000.0))
 	{
@@ -585,9 +602,9 @@ main (int argc, char *argv[])
       
       index = 1000;
       //find correct transformation index
-      for (i=0; i<11; i++)
+      for (i=0; i<NumPMTTrans; i++)
 	{
-	  if (mirnum == TAX4Tran[i][0] && trial == TAX4Tran[i][15])
+	  if (mirnum == TAX4Tran[i][0] && trial == TAX4Tran[i][15] && sitenum == TAX4Tran[i][16])
 	    {
 	      printf("Using row %d of the PMT transformation matrix\n",i);
 	      index = i;
@@ -1335,16 +1352,16 @@ main (int argc, char *argv[])
 #ifdef TAx4
 
 #ifdef HOMO
-void BldPMTMat(double TAX4Tran[][16], char *filepath, double Homo[][9]){ 
+void BldPMTMat(double TAX4Tran[][17], char *filepath, double Homo[][9]){ 
 #else
-void BldPMTMat(double TAX4Tran[][16], char *filepath){ 
+void BldPMTMat(double TAX4Tran[][17], char *filepath){ 
 #endif  
 
   FILE *lp, *fp, *jp, *pp;
   char buffer[1025], *token, fname[256];
   char command[1025];
   char *csvfile, *copyfile, *file;
-  int cntr, pos;
+  int cntr, pos, lngthu;
   double PMTMat[67][3], IPMTMat[256][3];
   int i,j;
   int Numbo;
@@ -1387,7 +1404,7 @@ void BldPMTMat(double TAX4Tran[][16], char *filepath){
   fclose(fp);
 
   //find the PMT Files.
-  sprintf (command, "find %s -type f -name \"m??_t?_p?.csv\"", filepath);
+  sprintf (command, "find %s -type f -name \"s?_m??_t?_p?.csv\"", filepath);
   
   //fprintf (stderr, "command: %s\n", command);
   lp = popen (command, "r");
@@ -1399,16 +1416,19 @@ void BldPMTMat(double TAX4Tran[][16], char *filepath){
     csvfile = strdup(buffer);
     //here we recover the mirror number and trial number
     
-    file = strndup (&buffer[strlen (buffer) - 13], 9);
+    file = strndup (&buffer[strlen (buffer) - 16], 12);
     printf("\n");
     printf("Found %s.csv\n",file);
 
-    token = strtok(file, " ,\t_.mtp/");
+    token = strtok(file, " ,\t_.smtp/");
+    TAX4Tran[pos][16] = atoi(token); //store site number into the matrix
+    token = strtok(file, " ,\t_.smtp/");
     TAX4Tran[pos][0] = atoi(token); //store mirror number into the matrix
-    token = strtok(NULL, " ,\t_.mtp/");
+    token = strtok(NULL, " ,\t_.smtp/");
     TAX4Tran[pos][15] = atoi(token); //store trial number into matrix
 
     printf("row = %d\n",pos);
+    printf("site number = %.0f\n",TAX4Tran[pos][16]);
     printf("mirror number = %.0f\n",TAX4Tran[pos][0]);
     printf("trial number = %.0f\n",TAX4Tran[pos][15]);
     sprintf(fname, "%s", csvfile);
@@ -1445,6 +1465,7 @@ void BldPMTMat(double TAX4Tran[][16], char *filepath){
     fclose(fp);
     
     //here we store the corners of the cover
+    lngthu = cntr - 7;
     cntr -= 1;
     for(i=0;i<4;i++)
       {
@@ -1466,7 +1487,7 @@ void BldPMTMat(double TAX4Tran[][16], char *filepath){
     CCenter.y = 0.0;
     scalesum1 = 0.0;
     scalesum2 = 0.0;
-    for(i=0; i<30; i++)
+    for(i=0; i<(lngthu/2); i++)
       {
 	//look for the ideal center of the PMT we are currently considering
 	j = 0;
@@ -1495,7 +1516,7 @@ void BldPMTMat(double TAX4Tran[][16], char *filepath){
 	}while(Tmp2.x == M_PI);
 	
 	//look for the partner PMT in the measured PMT list
-	for(j=30; j<60; j++)
+	for(j=(lngthu/2); j<lngthu; j++)
 	  {
 	    if(PMTMat[j][0] == Numbo)
 	      {
@@ -1522,21 +1543,21 @@ void BldPMTMat(double TAX4Tran[][16], char *filepath){
     TAX4Tran[pos][9] = scale; //store the scale in the matrix
 
     //add the bisector of PMT 137 and 120 to the average
-    CCenter.x += PMTMat[62][1]+PMTMat[61][1];
-    CCenter.y += PMTMat[62][2]+PMTMat[61][2];
+    CCenter.x += PMTMat[lngthu+2][1]+PMTMat[lngthu+1][1];
+    CCenter.y += PMTMat[lngthu+2][2]+PMTMat[lngthu+1][2];
     //add center determined from PMT 136 to the average
-    CCenter.x += 2.0*(PMTMat[60][1]+((6.58/8.0)*25.4)*cos(M_PI/3.0));
-    CCenter.y += 2.0*(PMTMat[60][2]+((6.58/8.0)*25.4)*sin(M_PI/2.0));
+    CCenter.x += 2.0*(PMTMat[lngthu][1]+((6.58/8.0)*25.4)*cos(M_PI/3.0));
+    CCenter.y += 2.0*(PMTMat[lngthu][2]+((6.58/8.0)*25.4)*sin(M_PI/2.0));
     //finish the average by dividing by the number of points multiplied by 2
-    CCenter.x /= 64.0;
-    CCenter.y /= 64.0;
+    CCenter.x /= 1.0*lengthu+4.0;
+    CCenter.y /= 1.0*lengthu+4.0;
     printf("cluster center = (%.3f,%.3f)\n",CCenter.x,CCenter.y);
     //store the center in the matrix
     TAX4Tran[pos][10] = CCenter.x;
     TAX4Tran[pos][11] = CCenter.y;
 
     //shift all of the measured PMT values so that the cluster center is the origin
-    for(i=0;i<=62;i++)
+    for(i=0;i<(lngthu+3);i++)
       {
 	PMTMat[i][1] -= CCenter.x;
 	PMTMat[i][2] -= CCenter.y;
@@ -1555,7 +1576,7 @@ void BldPMTMat(double TAX4Tran[][16], char *filepath){
 	 //find an average offset for a given theta
 	 x0 = 0.0e0;
 	 y0 = 0.0e0;
-	 for(i=0;i<63;i++)
+	 for(i=0;i<(lengthu+3);i++)
 	   {
 	     for(j=0;j<256;j++)
 	       {
@@ -1577,12 +1598,12 @@ void BldPMTMat(double TAX4Tran[][16], char *filepath){
 	 Tmp2.y = 0.0e0;
 	 x0 += xoff (Tmp2, Tmp1);
 	 y0 += yoff (Tmp2, Tmp1);
-	 x0 /= 64.0e0;
-	 y0 /= 64.0e0;
+	 x0 /= 1.0*lengthu+4.0;
+	 y0 /= 1.0*lengthu+4.0;
 	 //xtrans/ytrans sets the average offset to the origin, rotates counterclockwise by theta, and scales the coordinate to the ideal coordinate system
 	 //find the difference in the ideal and the transformed measured coordinates
 	 S = 0.0e0;
-	 for(i=0;i<63;i++)
+	 for(i=0;i<(lengthu+3);i++)
 	   {
 	     for(j=0;j<256;j++)
 	       {
@@ -1646,7 +1667,7 @@ void BldPMTMat(double TAX4Tran[][16], char *filepath){
 	 exit (-1);
        }
 
-     for (i=0; i<63; i++)
+     for (i=0; i<(lengthu+3); i++)
        {
 	 Tmp1.x = PMTMat[i][1];
 	 Tmp1.y = PMTMat[i][2];

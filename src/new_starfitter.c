@@ -32,14 +32,14 @@ double sigmax[NSTARS], sigmay[NSTARS];
 char sname0[NSTARS][12];
 char sname[NSTARS][12];
 
-const int MAXMIR[NSITES] = { 28, 11, 11}; 
-const int MINMIR[NSITES] = { 1, 0, 0};
+const int MAXMIR[NSITES] = { 28, 11, 11,8}; 
+const int MINMIR[NSITES] = { 1, 0, 0, 1};
 #ifdef TAx4
-const double CUTX[NSITES] = {12.7e0, 19.0e0, 19.0e0};  // Cut on x position
-const double CUTY[NSITES] = {11.2e0, 16.0e0, 16.0e0};  // Cut on y position
+const double CUTX[NSITES] = {12.7e0, 19.0e0, 19.0e0, 12.7e0};  // Cut on x position
+const double CUTY[NSITES] = {11.2e0, 16.0e0, 16.0e0, 11.2e0};  // Cut on y position
 #else
-const double CUTX[NSITES] = {11.5e0, 19.0e0, 19.0e0};  // Cut on x position
-const double CUTY[NSITES] = {10.7e0, 16.0e0, 16.0e0};  // Cut on y position
+const double CUTX[NSITES] = {11.5e0, 19.0e0, 19.0e0, 11.5e0};  // Cut on x position
+const double CUTY[NSITES] = {10.7e0, 16.0e0, 16.0e0, 10.7e0};  // Cut on y position
 #endif
 const double CUTD = 0.5e0;  // Absolute cut on initial error          
 

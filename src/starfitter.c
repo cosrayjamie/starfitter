@@ -26,14 +26,14 @@ double xmeas[NSTARS], ymeas[NSTARS];
 double sigmax[NSTARS], sigmay[NSTARS];
 char sname[NSTARS][12];
 
-const int MAXMIR[NSITES] = { 28, 11, 11}; 
-const int MINMIR[NSITES] = { 1, 0, 0};
+const int MAXMIR[NSITES] = { 28, 11, 11,8}; 
+const int MINMIR[NSITES] = { 1, 0, 0,1};
 #ifdef TAx4
-const double CUTX[NSITES] = {12.691, 19.0e0, 19.0e0};  // Cut on x position
-const double CUTY[NSITES] = {11.174, 16.0e0, 16.0e0};  // Cut on y position
+const double CUTX[NSITES] = {12.691, 19.0e0, 19.0e0, 12.691};  // Cut on x position
+const double CUTY[NSITES] = {11.174, 16.0e0, 16.0e0, 11.174};  // Cut on y position
 #else
-const double CUTX[NSITES] = {11.5e0, 19.0e0, 19.0e0};  // Cut on x position
-const double CUTY[NSITES] = {10.7e0, 16.0e0, 16.0e0};  // Cut on y position
+const double CUTX[NSITES] = {11.5e0, 19.0e0, 19.0e0, 11.5e0};  // Cut on x position
+const double CUTY[NSITES] = {10.7e0, 16.0e0, 16.0e0,10.7e0 };  // Cut on y position
 #endif
 const double CUTD = 0.5e0;  // Absolute cut on initial error          
 
@@ -153,8 +153,6 @@ int main(int argc, char *argv[])
       // The cut on delta was determined by looking at the delta distribution for all stars and
       // all mirrors. Hopefully, this will help to throw out stars where the centroid was mis-measured
       // because they are partially darkened by Tom's wooden support bars.
-
-      //need to change CUTX and CUTY in starfitter.h for TAx4
 
       if(fabs(xstar)>CUTX[site])continue;
       if(fabs(ystar)>CUTY[site])continue;

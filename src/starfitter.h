@@ -11,7 +11,7 @@
 #define EPSILON (0.02e0)
 #define NSTARS 5000
 #define NPARMS 4
-#define NSITES 3
+#define NSITES 4
 #define NMIRS  29
 #define D2R  (M_PI/180.0e0)
 #define R2D  (180.0e0/M_PI)

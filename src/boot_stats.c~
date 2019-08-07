@@ -48,7 +48,7 @@ int main( void)
 
       for(site=0;site<3;site++)  // Site
 	{
-	  for(mir=0;mir<25;mir++) // Mirror
+	  for(mir=0;mir<29;mir++) // Mirror
 	    {
 	      if((site==0)&&(mir==0))continue; // MD has no mirror #00
 	      if((site>0)&&(mir>11))break; // BR & LR have only 12 mirrors

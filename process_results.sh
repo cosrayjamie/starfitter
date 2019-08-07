@@ -55,4 +55,11 @@ grep "3 8 " results/all.stars.txt > results/lr_m08.stars.txt && ./starfitter res
 grep "3 9 " results/all.stars.txt > results/lr_m09.stars.txt && ./starfitter results/lr_m09.stars.txt | tee results/lr_m09.stars.txt.results | tail -n 1 >> results/summary.results
 grep "3 10 " results/all.stars.txt > results/lr_m10.stars.txt && ./starfitter results/lr_m10.stars.txt | tee results/lr_m10.stars.txt.results | tail -n 1 >> results/summary.results
 grep "3 11 " results/all.stars.txt > results/lr_m11.stars.txt && ./starfitter results/lr_m11.stars.txt | tee results/lr_m11.stars.txt.results | tail -n 1 >> results/summary.results
-
+grep "4 1 " results/all.stars.txt > results/br_TAx4_m01.stars.txt && ./starfitter results/br_TAx4_m01.stars.txt | tee results/br_TAx4_m01.stars.txt.results | tail -n 1 >> results/summary.results
+grep "4 2 " results/all.stars.txt > results/br_TAx4_m02.stars.txt && ./starfitter results/br_TAx4_m02.stars.txt | tee results/br_TAx4_m02.stars.txt.results | tail -n 1 >> results/summary.results
+grep "4 3 " results/all.stars.txt > results/br_TAx4_m03.stars.txt && ./starfitter results/br_TAx4_m03.stars.txt | tee results/br_TAx4_m03.stars.txt.results | tail -n 1 >> results/summary.results
+grep "4 4 " results/all.stars.txt > results/br_TAx4_m04.stars.txt && ./starfitter results/br_TAx4_m04.stars.txt | tee results/br_TAx4_m04.stars.txt.results | tail -n 1 >> results/summary.results
+grep "4 5 " results/all.stars.txt > results/br_TAx4_m05.stars.txt && ./starfitter results/br_TAx4_m05.stars.txt | tee results/br_TAx4_m05.stars.txt.results | tail -n 1 >> results/summary.results
+grep "4 6 " results/all.stars.txt > results/br_TAx4_m06.stars.txt && ./starfitter results/br_TAx4_m06.stars.txt | tee results/br_TAx4_m06.stars.txt.results | tail -n 1 >> results/summary.results
+grep "4 7 " results/all.stars.txt > results/br_TAx4_m07.stars.txt && ./starfitter results/br_TAx4_m07.stars.txt | tee results/br_TAx4_m07.stars.txt.results | tail -n 1 >> results/summary.results
+grep "4 8 " results/all.stars.txt > results/br_TAx4_m08.stars.txt && ./starfitter results/br_TAx4_m08.stars.txt | tee results/br_TAx4_m08.stars.txt.results | tail -n 1 >> results/summary.results

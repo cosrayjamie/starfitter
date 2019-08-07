@@ -2,12 +2,12 @@
 """
 Created on Thu Mar 21 18:33:06 2019
 
-@author: opyob
+@author: Josh Peterson
 """
 
 import numpy as np
 
-MirNumb = [28,11,11]
+MirNumb = [28,11,11,8]
 
 
 #read in the geometry file
@@ -63,7 +63,7 @@ flag = 0
 file = open("TAx4_Mirror_Geometry.txt","w+")
 
 #look for data from the same telescope
-for i in range(3):
+for i in range(4):
     for j in range(MirNumb[i]+1):
         for k in range(len(MirGeo)):
                 if (i == int(MirGeo[k][0]) and j == int(MirGeo[k][1])):
