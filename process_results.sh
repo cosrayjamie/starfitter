@@ -1,8 +1,8 @@
-./test_trans /home/joshpeterson/StarStuff/starfitter/Mirror_Survey_Photos/TAX4/ 1>process.log 2>process.log
+./test_trans ./Mirror_Survey_Photos/TAX4/ 1>process.log 2>process.log
 #find /home/thomas/starfitterMirror_Survey_Photos/ -type f -name "img_????.???.stars.txt" -exec mv '{}' results/. \;
 cat results/*img_????.???.stars.txt > results/all.stars.txt
 grep -v jshhdd results/*img_????.???.stars.txt | sort -k 13 -gr > results/all.stars.csv
-find /home/joshpeterson/StarStuff/starfitter/Mirror_Survey_Photos/TAX4/ -type f -name "img_????.???.csv*" -exec wc '{}' \; | awk '{print $NF" "$1}' | awk -F / '{print $NF}' | sort | uniq > results/csvfile_status.results
+find ./Mirror_Survey_Photos/TAX4/ -type f -name "img_????.???.csv*" -exec wc '{}' \; | awk '{print $NF" "$1}' | awk -F / '{print $NF}' | sort | uniq > results/csvfile_status.results
 grep "1 1 " results/all.stars.txt > results/md_m01.stars.txt && ./starfitter results/md_m01.stars.txt | tee results/md_m01.stars.txt.results | tail -n 1 > results/summary.results
 grep "1 2 " results/all.stars.txt > results/md_m02.stars.txt && ./starfitter results/md_m02.stars.txt | tee results/md_m02.stars.txt.results | tail -n 1 >> results/summary.results
 grep "1 3 " results/all.stars.txt > results/md_m03.stars.txt && ./starfitter results/md_m03.stars.txt | tee results/md_m03.stars.txt.results | tail -n 1 >> results/summary.results

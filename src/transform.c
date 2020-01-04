@@ -37,9 +37,9 @@ typedef struct STAR
 
 int main (int argc, char *argv[]);
 #ifdef HOMO
-void BldPMTMat(double TAX4Tran[][16], char *filepath, double Homo[][9]);
+void BldPMTMat(double TAX4Tran[][17], char *filepath, double Homo[][9]);
 #else
-void BldPMTMat(double TAX4Tran[][16], char *filepath);
+void BldPMTMat(double TAX4Tran[][17], char *filepath);
 #endif
 //void AvShift(double Shift[], double TAX4Tran[10][15], VECTOR corner[5], int mir);
 
@@ -78,7 +78,7 @@ main (int argc, char *argv[])
   int jstar, ilast;
   double XOFFSET, YOFFSET;
   double jday;
-  double mirnum, trial;
+  double sitenum, mirnum, trial;
   int index;
   double TAX4Tran[NumPMTTrans][17];
   double Homo[NumPMTTrans][9];
@@ -92,11 +92,10 @@ main (int argc, char *argv[])
     }
 
   fprintf (stderr, "path: %s\n", argv[1]);
-
+  
 #ifdef TAx4
 
   //determine transformations from PMT files
-
   printf("\n");
   printf("Building matrix of TAX4 Transformations\n");
 #ifdef HOMO
@@ -572,7 +571,7 @@ main (int argc, char *argv[])
 	
 	token = strtok(file, " ,\t_.smtp/");
 	sitenum = atoi(token); //store site number
-	token = strtok(file, " ,\t_.smtp/");
+	token = strtok(NULL, " ,\t_.smtp/");
 	mirnum = atoi(token); //store mirror number
 	token = strtok(NULL, " ,\t_.smtp/");
 	trial = atoi(token); //store trial number
@@ -586,14 +585,14 @@ main (int argc, char *argv[])
       printf("Mirror Number %.0f Found\n",mirnum);
       printf("Trial %.0f Found\n", trial);
 
-      if (sitenum - site > (1.0/10000.0))
+      if (abs(sitenum - site) > (1.0/10000.0))
 	{
 	  printf("Recovered incorrect site number from PMT file\n");
 	  printf("Be sure that the correct PMT file is with the photo set\n");
 	  continue;
 	}
       
-      if (mirnum - mir > (1.0/10000.0))
+      if (abs(mirnum - mir) > (1.0/10000.0))
 	{
 	  printf("Recovered incorrect mirror number from PMT file\n");
 	  printf("Be sure that the correct PMT file is with the photo set\n");
@@ -1372,6 +1371,7 @@ void BldPMTMat(double TAX4Tran[][17], char *filepath){
   double h0, h1, h2, h3, h4, h5, h6, h7 ,h8;
 
   //here we open the ideal PMT file and read in the information
+ 
   sprintf(fname, "./IdealPMT.txt");
   if ((fp = fopen (fname, "r")) == NULL)
     {
@@ -1380,7 +1380,6 @@ void BldPMTMat(double TAX4Tran[][17], char *filepath){
   else
     {
       printf ("Reading Ideal PMT file %s\n", fname);
-
       cntr = 0;
       while (fgets (buffer, 1023, fp) != NULL)
 	{
@@ -1405,9 +1404,9 @@ void BldPMTMat(double TAX4Tran[][17], char *filepath){
 
   //find the PMT Files.
   sprintf (command, "find %s -type f -name \"s?_m??_t?_p?.csv\"", filepath);
-  
   //fprintf (stderr, "command: %s\n", command);
   lp = popen (command, "r");
+
   //read in the PMT files
   pos = 0;
   while (fgets (buffer, 1024, lp) != NULL){
@@ -1419,14 +1418,16 @@ void BldPMTMat(double TAX4Tran[][17], char *filepath){
     file = strndup (&buffer[strlen (buffer) - 16], 12);
     printf("\n");
     printf("Found %s.csv\n",file);
-
+    fprintf(stderr,"Found %s.csv\n",file);
     token = strtok(file, " ,\t_.smtp/");
+   
     TAX4Tran[pos][16] = atoi(token); //store site number into the matrix
-    token = strtok(file, " ,\t_.smtp/");
+    token = strtok(NULL, " ,\t_.smtp/");
     TAX4Tran[pos][0] = atoi(token); //store mirror number into the matrix
     token = strtok(NULL, " ,\t_.smtp/");
     TAX4Tran[pos][15] = atoi(token); //store trial number into matrix
 
+    
     printf("row = %d\n",pos);
     printf("site number = %.0f\n",TAX4Tran[pos][16]);
     printf("mirror number = %.0f\n",TAX4Tran[pos][0]);
@@ -1549,8 +1550,8 @@ void BldPMTMat(double TAX4Tran[][17], char *filepath){
     CCenter.x += 2.0*(PMTMat[lngthu][1]+((6.58/8.0)*25.4)*cos(M_PI/3.0));
     CCenter.y += 2.0*(PMTMat[lngthu][2]+((6.58/8.0)*25.4)*sin(M_PI/2.0));
     //finish the average by dividing by the number of points multiplied by 2
-    CCenter.x /= 1.0*lengthu+4.0;
-    CCenter.y /= 1.0*lengthu+4.0;
+    CCenter.x /= 1.0*lngthu+4.0;
+    CCenter.y /= 1.0*lngthu+4.0;
     printf("cluster center = (%.3f,%.3f)\n",CCenter.x,CCenter.y);
     //store the center in the matrix
     TAX4Tran[pos][10] = CCenter.x;
@@ -1576,7 +1577,7 @@ void BldPMTMat(double TAX4Tran[][17], char *filepath){
 	 //find an average offset for a given theta
 	 x0 = 0.0e0;
 	 y0 = 0.0e0;
-	 for(i=0;i<(lengthu+3);i++)
+	 for(i=0;i<(lngthu+3);i++)
 	   {
 	     for(j=0;j<256;j++)
 	       {
@@ -1598,12 +1599,12 @@ void BldPMTMat(double TAX4Tran[][17], char *filepath){
 	 Tmp2.y = 0.0e0;
 	 x0 += xoff (Tmp2, Tmp1);
 	 y0 += yoff (Tmp2, Tmp1);
-	 x0 /= 1.0*lengthu+4.0;
-	 y0 /= 1.0*lengthu+4.0;
+	 x0 /= 1.0*lngthu+4.0;
+	 y0 /= 1.0*lngthu+4.0;
 	 //xtrans/ytrans sets the average offset to the origin, rotates counterclockwise by theta, and scales the coordinate to the ideal coordinate system
 	 //find the difference in the ideal and the transformed measured coordinates
 	 S = 0.0e0;
-	 for(i=0;i<(lengthu+3);i++)
+	 for(i=0;i<(lngthu+3);i++)
 	   {
 	     for(j=0;j<256;j++)
 	       {
@@ -1667,7 +1668,7 @@ void BldPMTMat(double TAX4Tran[][17], char *filepath){
 	 exit (-1);
        }
 
-     for (i=0; i<(lengthu+3); i++)
+     for (i=0; i<(lngthu+3); i++)
        {
 	 Tmp1.x = PMTMat[i][1];
 	 Tmp1.y = PMTMat[i][2];

@@ -5,7 +5,7 @@ Running star analysis for the first time:
 
 If you have found this file then you have passed the first test.  There are many files in the starfitter directory so hopefully this outline will help future users get a general idea of how everything works. Please read the entire outline before running anything.
 
-First run the command chmod +x compile.sh and then run compile.sh.  This will, as the name implies, compile all of the programs necessary to analyze star photographs.
+First run the command chmod +x compile.sh and then run compile.sh.  This will, as the name implies, compile all of the programs necessary to analyze star photographs.  Then run compileTAx4.sh to compile the modifications needed to analyze the latest stuff.
 
 Once everything is compiled run reset.sh.  Reset.sh clears prior results and creates mirror geometries via least squares optimization.  The discriptions below by Stan are very informative and should be read prior to running reset.sh.  It is important to note that reset.sh and process_results.sh, which reset.sh runs, require specific file paths.  Before running these programs the file paths need to be changed to work on the computer being used.
 

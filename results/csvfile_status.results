@@ -145,8 +145,9 @@ img_0071.jaz.csv.passed 13
 img_0071.jaz.csv.passed 8
 img_0072.jaz.csv.passed 11
 img_0072.jaz.csv.passed 8
-img_0073.jaz.csv.passed 12
+img_0073.jaz.csv.matched_0_out_of_7_stars 12
 img_0073.jaz.csv.passed 8
+img_0073.jaz.csv.processing_report 24
 img_0074.jaz.csv.passed 13
 img_0074.jaz.csv.passed 8
 img_0075.jaz.csv.matched_6_out_of_7_stars 12

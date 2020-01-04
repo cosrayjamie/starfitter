@@ -1,0 +1,24 @@
+Processing report:
+
+Middle Drum m27 9/20/2018 11:39:46.00
+Photo: ./Mirror_Survey_Photos/TAX4/m27_trial_2/img_0073.jaz.csv
+
+7 stars were found in the CSV file.
+
+1. (439.088,612.462)
+2. (594.773,572.812)
+3. (702.476,372.393)
+4. (651.570,326.707)
+5. (870.831,512.678)
+6. (802.905,656.632)
+7. (1014.590,742.653)
+
+0 out of 0 potential matches were identified.
+
+1. (439.088,612.462) => (-9.711,6.527) not matched, closest star is  mag: 0.00 (0.000,0.000) delta: (-9.711,6.527)
+2. (594.773,572.812) => (-3.550,4.983) not matched, closest star is  mag: 0.00 (0.000,0.000) delta: (-3.550,4.983)
+3. (702.476,372.393) => (0.738,-2.925) not matched, closest star is  mag: 0.00 (0.000,0.000) delta: (0.738,-2.925)
+4. (651.570,326.707) => (-1.268,-4.738) not matched, closest star is  mag: 0.00 (0.000,0.000) delta: (-1.268,-4.738)
+5. (870.831,512.678) => (7.373,2.647) not matched, closest star is  mag: 0.00 (0.000,0.000) delta: (7.373,2.647)
+6. (802.905,656.632) => (4.666,8.328) not matched, closest star is  mag: 0.00 (0.000,0.000) delta: (4.666,8.328)
+7. (1014.590,742.653) => (13.022,11.760) not matched, closest star is  mag: 0.00 (0.000,0.000) delta: (13.022,11.760)
