@@ -46,11 +46,11 @@ int main( void)
 
       // Process all sites and mirrors for this parameter mask setting
 
-      for(site=0;site<3;site++)  // Site
+      for(site=0;site<4;site++)  // Site
 	{
 	  for(mir=0;mir<29;mir++) // Mirror
 	    {
-	      if((site==0)&&(mir==0))continue; // MD has no mirror #00
+	      if((site==0 || site==3) && (mir==0))continue; // MD and BR TAx4 has no mirror #00
 	      if((site>0)&&(mir>11))break; // BR & LR have only 12 mirrors
 	      
 	      // First see how many records we have for this site, mirror, and parameter mask

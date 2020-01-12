@@ -5,15 +5,31 @@ Running star analysis for the first time:
 
 If you have found this file then you have passed the first test.  There are many files in the starfitter directory so hopefully this outline will help future users get a general idea of how everything works. Please read the entire outline before running anything.
 
-First run the command chmod +x compile.sh and then run compile.sh.  This will, as the name implies, compile all of the programs necessary to analyze star photographs.  Then run compileTAx4.sh to compile the modifications needed to analyze the latest stuff.
+First run the command chmod +x compile.sh and then run compile.sh.  This will, as the name implies, compile all of the programs necessary to analyze star photographs.  Then run compileTAx4.sh to compile the modifications needed to analyze photos of the TAx4 telescopes.
 
-Once everything is compiled run reset.sh.  Reset.sh clears prior results and creates mirror geometries via least squares optimization.  The discriptions below by Stan are very informative and should be read prior to running reset.sh.  It is important to note that reset.sh and process_results.sh, which reset.sh runs, require specific file paths.  Before running these programs the file paths need to be changed to work on the computer being used.
+Be sure that each telescope to be analyzed (and each time that telescope was measured) has it's own directory containing EXIF tagged photos, star measurement csv files, and a PMT measurement file.  The following are the file name formats that have to be followed:
+
+For photos:  img_????.jpg
+
+For star measurement files: img_????.???.csv
+The first four ?s are the image number and the next three ?s are the initials of the person who measured the stars.
+
+For PMT measurements: s?_m??_t?_p?.csv
+The first ? is the site number, the nest two ?s are the mirror number, the next ? is the trial number (if a mirror was measured more than once), and the last ? is a position number (before taking photos and after taking photos).
+
+To get star measurements and initial results be sure the telescope directories are in the Mirror_Survey_Photos/Active directory.
+
+Once everything is compiled and files are correctly labelled and moved, run reset.sh.  Reset.sh clears prior results and creates mirror geometries via least squares optimization.  The discriptions below by Stan are very informative and should be read prior to running reset.sh.
 
 After you have done this you will have a bunch of results in the results directory.  One should probably check process.log (in ~/starfitter) and summary.results (in ~/starfitter/results) to make sure everything worked properly.
 
-At this point, to further refine the results and gain information about error, you could run boot_results.sh.  This program uses bootstrapping to find errors.   Boot_results.sh uses new_starfitter, which requires a current mirror_geometry.dat file (probably with the contents of summary.results), mirror_geometry.tokuno, and .stars.txt files. If something goes wrong look at rejects.err to figure out what went wrong. The results are put into mirror_geometry.nparm.dat.  To find the median and 95% confidence interval run boot_stats.  The program run_boot.sh will run both programs.
+After this you are ready to refine results and estimate error.  For the original photos you can run_boot.sh, or for TAx4 stuff you can run process_TAx4.sh.  Both programs runs boot_results.sh and /boot_stats.
 
-TAx4 is very simple to run.  Essentially all you have to run is ./reset.sh and then ./process_TAx4.sh in order to get mirror geometry.
+boot_results.sh uses bootstrapping to find errors with /new_starfitter, which requires a current mirror_geometry.dat file (probably with the contents of summary.results) and .stars.txt files. If something goes wrong look at rejects.err to figure out what went wrong. The results are put into mirror_geometry.nparm.dat.
+
+/boot_stats finds the median and 95% confidence interval.
+
+Finally, in process_TAx4.sh, QuickStat.py will compile the results from different fitting parameters and compile them in the file 'TAx4_Mirror_Geometry.txt'.
 
 -Josh Peterson
 

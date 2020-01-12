@@ -1,48 +1,72 @@
-Geometry with equal weighting of mirror 0, 25
-theta = 67.882 +/- 0.011
-phi = 9.943 +/- 0.009
-psi = 0.007 +/- 0.005
-D0 = 4.755 +/- 0.005
+Geometry with equal weighting of mirror 3, 1
+theta = 357.987 +/- 0.050
+phi = 10.286 +/- 0.045
+psi = 0.483 +/- 1.316
+D0 = 4.734 +/- 0.016
 
-Geometry with inverse variance weighting of mirror 0, 25
-theta = 67.882 +/- 0.003
-phi = 9.943 +/- 0.002
-psi = 0.007 +/- 0.035
-D0 = 4.755 +/- 0.002
+Geometry with inverse variance weighting of mirror 3, 1
+theta = 357.986 +/- 0.012
+phi = 10.284 +/- 0.011
+psi = 0.484 +/- 0.573
+D0 = 4.734 +/- 0.008
 
-Geometry with equal weighting of mirror 0, 26
-theta = 51.989 +/- 0.027
-phi = 10.489 +/- 0.020
-psi = -0.163 +/- 0.652
-D0 = 4.730 +/- 0.005
+Geometry with equal weighting of mirror 3, 2
+theta = 342.205 +/- 0.044
+phi = 10.112 +/- 0.030
+psi = 0.486 +/- 1.256
+D0 = 4.765 +/- 0.012
 
-Geometry with inverse variance weighting of mirror 0, 26
-theta = 51.989 +/- 0.005
-phi = 10.489 +/- 0.004
-psi = -0.142 +/- 0.155
-D0 = 4.730 +/- 0.002
+Geometry with inverse variance weighting of mirror 3, 2
+theta = 342.209 +/- 0.010
+phi = 10.112 +/- 0.007
+psi = 0.488 +/- 0.559
+D0 = 4.765 +/- 0.006
 
-Geometry with equal weighting of mirror 0, 27
-theta = 36.103 +/- 0.041
-phi = 9.782 +/- 0.028
-psi = 0.196 +/- 1.095
-D0 = 4.733 +/- 0.009
+Geometry with equal weighting of mirror 3, 3
+theta = 326.183 +/- 0.027
+phi = 9.997 +/- 0.030
+psi = 0.609 +/- 0.599
+D0 = 4.743 +/- 0.009
 
-Geometry with inverse variance weighting of mirror 0, 27
-theta = 36.102 +/- 0.007
-phi = 9.783 +/- 0.006
-psi = 0.199 +/- 0.522
-D0 = 4.733 +/- 0.005
+Geometry with inverse variance weighting of mirror 3, 3
+theta = 326.181 +/- 0.007
+phi = 9.993 +/- 0.007
+psi = 0.612 +/- 0.187
+D0 = 4.743 +/- 0.004
 
-Geometry with equal weighting of mirror 0, 28
-theta = 20.056 +/- 0.017
-phi = 10.556 +/- 0.016
-psi = -0.167 +/- 1.444
-D0 = 4.765 +/- 0.005
+Geometry with equal weighting of mirror 3, 4
+theta = 309.989 +/- 0.066
+phi = 9.989 +/- 0.027
+psi = 0.776 +/- 0.788
+D0 = 4.740 +/- 0.009
 
-Geometry with inverse variance weighting of mirror 0, 28
-theta = 20.055 +/- 0.004
-phi = 10.556 +/- 0.004
-psi = -0.168 +/- 0.601
-D0 = 4.766 +/- 0.003
+Geometry with inverse variance weighting of mirror 3, 4
+theta = 309.969 +/- 0.008
+phi = 9.990 +/- 0.007
+psi = 0.770 +/- 0.434
+D0 = 4.741 +/- 0.005
+
+Geometry with equal weighting of mirror 3, 7
+theta = 262.299 +/- 0.059
+phi = 10.143 +/- 0.028
+psi = 0.358 +/- 3.188
+D0 = 4.739 +/- 0.010
+
+Geometry with inverse variance weighting of mirror 3, 7
+theta = 262.297 +/- 0.013
+phi = 10.143 +/- 0.006
+psi = 0.359 +/- 0.806
+D0 = 4.739 +/- 0.004
+
+Geometry with equal weighting of mirror 3, 8
+theta = 246.232 +/- 0.026
+phi = 10.204 +/- 0.023
+psi = 0.431 +/- 1.627
+D0 = 4.742 +/- 0.009
+
+Geometry with inverse variance weighting of mirror 3, 8
+theta = 246.233 +/- 0.006
+phi = 10.204 +/- 0.006
+psi = 0.427 +/- 0.636
+D0 = 4.742 +/- 0.004
 

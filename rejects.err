@@ -1,192 +1,53 @@
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 4 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
-ERROR: Insufficient number of parameters for fit NPARMS = 2 (1)
-Usage: ./new_starfitter <FITMASK (y0,x0,psi,D0,phi,theta)> <mirror_geometry.dat> <*.stars.txt>
+Too few records for Middle Drum m01 MASK = 3 (3)
+Too few records for Middle Drum m02 MASK = 3 (3)
+Too few records for Middle Drum m03 MASK = 3 (3)
+Too few records for Middle Drum m04 MASK = 3 (3)
+Too few records for Middle Drum m05 MASK = 3 (3)
+Too few records for Middle Drum m06 MASK = 3 (3)
+Too few records for Middle Drum m07 MASK = 3 (3)
+Too few records for Middle Drum m08 MASK = 3 (3)
+Too few records for Middle Drum m09 MASK = 3 (3)
+Too few records for Middle Drum m10 MASK = 3 (3)
+Too few records for Middle Drum m11 MASK = 3 (3)
+Too few records for Middle Drum m12 MASK = 3 (3)
+Too few records for Middle Drum m13 MASK = 3 (3)
+Too few records for Middle Drum m14 MASK = 3 (3)
+Too few records for Middle Drum m15 MASK = 3 (3)
+Too few records for Middle Drum m16 MASK = 3 (3)
+Too few records for Middle Drum m17 MASK = 3 (3)
+Too few records for Middle Drum m18 MASK = 3 (3)
+Too few records for Middle Drum m19 MASK = 3 (3)
+Too few records for Middle Drum m20 MASK = 3 (3)
+Too few records for Middle Drum m21 MASK = 3 (3)
+Too few records for Middle Drum m22 MASK = 3 (3)
+Too few records for Middle Drum m23 MASK = 3 (3)
+Too few records for Middle Drum m24 MASK = 3 (3)
+Too few records for Middle Drum m25 MASK = 3 (3)
+Too few records for Middle Drum m26 MASK = 3 (3)
+Too few records for Middle Drum m27 MASK = 3 (3)
+Too few records for Middle Drum m28 MASK = 3 (3)
+Too few records for Black Rock m00 MASK = 3 (3)
+Too few records for Black Rock m01 MASK = 3 (3)
+Too few records for Black Rock m02 MASK = 3 (3)
+Too few records for Black Rock m03 MASK = 3 (3)
+Too few records for Black Rock m04 MASK = 3 (3)
+Too few records for Black Rock m05 MASK = 3 (3)
+Too few records for Black Rock m06 MASK = 3 (3)
+Too few records for Black Rock m07 MASK = 3 (3)
+Too few records for Black Rock m08 MASK = 3 (3)
+Too few records for Black Rock m09 MASK = 3 (3)
+Too few records for Black Rock m10 MASK = 3 (3)
+Too few records for Black Rock m11 MASK = 3 (3)
+Too few records for Long Ridge m00 MASK = 3 (3)
+Too few records for Long Ridge m01 MASK = 3 (3)
+Too few records for Long Ridge m02 MASK = 3 (3)
+Too few records for Long Ridge m03 MASK = 3 (3)
+Too few records for Long Ridge m04 MASK = 3 (3)
+Too few records for Long Ridge m05 MASK = 3 (3)
+Too few records for Long Ridge m06 MASK = 3 (3)
+Too few records for Long Ridge m07 MASK = 3 (3)
+Too few records for Long Ridge m08 MASK = 3 (3)
+Too few records for Long Ridge m09 MASK = 3 (3)
+Too few records for Long Ridge m10 MASK = 3 (3)
+Too few records for Long Ridge m11 MASK = 3 (3)
+grep: /home/joshua/StarStuff/starfitter/mirror_geometry.nparm.dat: No such file or directory

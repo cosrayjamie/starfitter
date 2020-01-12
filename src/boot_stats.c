@@ -19,7 +19,7 @@ int main( void)
   double phi[NMAX], theta[NMAX], psi[NMAX], mcd[NMAX], roc[NMAX], nstars[NMAX], chi2[NMAX];
   int wc;
   int nc;
-  char *sname[3] = {"Middle Drum","Black Rock","Long Ridge"};
+  char *sname[4] = {"Middle Drum","Black Rock","Long Ridge","Black Rock TAx4"};
   int ip, NP = 0;
 
   // Identify parameter settings from data file
@@ -55,7 +55,7 @@ int main( void)
 	      
 	      // First see how many records we have for this site, mirror, and parameter mask
 
-	      sprintf(command,"grep \"%d %d %d \" ~/StarStuff/starfitter/mirror_geometry.nparm.dat | grep -v \" %d %d %d \" | wc -l", site, mir, nparms[ip], site, mir, nparms[ip]);
+	      sprintf(command,"grep \"%d %d %d \" ./mirror_geometry.nparm.dat | grep -v \" %d %d %d \" | wc -l", site, mir, nparms[ip], site, mir, nparms[ip]);
 	      
 	      if((pp = popen(command,"r"))==NULL)exit(-1);
 	      if(fgets(buffer,2047,pp) == NULL)exit(-1);
@@ -69,7 +69,7 @@ int main( void)
 	      
 	      // Read in results for this site, mirror, and parameter mask
 
-	      sprintf(command,"grep \"%d %d %d \" ~/StarStuff/starfitter/mirror_geometry.nparm.dat | grep -v \" %d %d %d \"", site, mir, nparms[ip], site, mir, nparms[ip]);
+	      sprintf(command,"grep \"%d %d %d \" ./mirror_geometry.nparm.dat | grep -v \" %d %d %d \"", site, mir, nparms[ip], site, mir, nparms[ip]);
 	      if((pp = popen(command,"r"))==NULL)exit(-1);
 	      nc = 0;
 	      while(fgets(buffer,2047,pp) != NULL)

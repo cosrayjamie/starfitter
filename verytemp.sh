@@ -1,7 +1,0 @@
-mv -n "./MDTAX4PMT/m25_t1_p1.csv" "./MDTAX4PMT/s0_m25_t1_p1.csv"
-mv -n "./MDTAX4PMT/m28_t2_p1.csv" "./MDTAX4PMT/s0_m28_t2_p1.csv"
-mv -n "./MDTAX4PMT/m26_t1_p1.csv" "./MDTAX4PMT/s0_m26_t1_p1.csv"
-mv -n "./MDTAX4PMT/m26_t1_p2.csv" "./MDTAX4PMT/s0_m26_t1_p2.csv"
-mv -n "./MDTAX4PMT/m28_trial_2/m28_t1_p2.csv" "./MDTAX4PMT/s0_m28_trial_2"
-mv -n "./MDTAX4PMT/m27_t1_p1.csv" "./MDTAX4PMT/s0_m27_t1_p1.csv"
-mv -n "./MDTAX4PMT/m28_t2_p2.csv" "./MDTAX4PMT/s0_m28_t2_p2.csv"

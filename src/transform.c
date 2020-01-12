@@ -70,7 +70,7 @@ main (int argc, char *argv[])
   double sdist, smin;
   char *fileroot, *filepath, *csvfile, *fullroot, *file;
   double WIDTH, HEIGHT;
-  char *sitename[3] = { "Middle Drum", "Black Rock", "Long Ridge" };
+  char *sitename[4] = { "Middle Drum", "Black Rock", "Long Ridge","Black Rock" };
   char tmpname[20];
   double dMAX, dERR;
   int DUPLICATE;
@@ -90,11 +90,11 @@ main (int argc, char *argv[])
       fprintf (stderr, "ERROR: Usage: %s </path/to/files/>\7\7\n", argv[0]);
       exit (-1);
     }
-
+  
   fprintf (stderr, "path: %s\n", argv[1]);
   
 #ifdef TAx4
-
+ 
   //determine transformations from PMT files
   printf("\n");
   printf("Building matrix of TAX4 Transformations\n");
@@ -105,7 +105,7 @@ main (int argc, char *argv[])
 #endif
 
 #endif
-
+ 
   //look for star files in the specified file path
   sprintf (command, "find %s -type f -name \"img_????.???.csv\"", argv[1]);
   fprintf (stderr, "command: %s\n", command);
@@ -179,7 +179,7 @@ main (int argc, char *argv[])
 	  continue;
 	}
 
-
+      
       // TA Site Number
 
       //prepare and execute exiftool command
@@ -233,7 +233,7 @@ main (int argc, char *argv[])
       buffer[strlen (buffer) - 1] = '\0'; //create terminator
       token = strstr (buffer, ": "); //search for the first occurance of ": "
       strcpy (tmpname, &token[2]); //store the site name
-
+      
       // TA Mirror Number
 
       //prepare and execute exiftool command
@@ -258,7 +258,7 @@ main (int argc, char *argv[])
 		   filepath, fileroot);
 	  continue;
 	}
-
+  
       printf ("Extracted image metadata from %s/%s.jpg\n\n", filepath,
 	      fileroot);
 
@@ -270,6 +270,7 @@ main (int argc, char *argv[])
 		   site);
 	  continue;
 	}
+ 
       //check if the site name matches the site number
       if (strcmp (sitename[site], tmpname) != 0)
 	{
@@ -278,6 +279,7 @@ main (int argc, char *argv[])
 		   tmpname, site, sitename[site]);
 	  continue;
 	}
+
       //check if mirror numbers are correct
       if (site == 0)
 	{
@@ -411,6 +413,7 @@ main (int argc, char *argv[])
 	  }
 	  else if (strcasestr (buffer, "corner") != NULL){ //check if read in corner
 	    mtype = 2;
+
 	  }
 	  else if (strcasestr (buffer, "star") != NULL){ //check if read in star
 	    mtype = 3;
@@ -466,7 +469,7 @@ main (int argc, char *argv[])
 	      M++;
 	      if ((MX >= 0) && (MY >= 0))
 		{
-		  if (site == 0) //store location in metric for MD
+		  if (site == 0 || site==3) //store location in metric for MD
 		    {
 		      if (M == MX)
 			tmp.x = atof (token);
@@ -523,7 +526,9 @@ main (int argc, char *argv[])
 	}
       
       fclose (fp);
-      
+#ifdef TAx4
+      //The program was being weird at this section so Josh cut out this check for TAx4 telescopes because they aren't used in the computations anyways.
+#else
       //if the corners aren't specified move on to the next file
       if (NC != 4)
 	{
@@ -539,13 +544,13 @@ main (int argc, char *argv[])
 	    }
 	  
 	  fprintf (fp, "Processing report:\n\n");
-	  fprintf (fp, "Failed to find four corners.\7\7\n");
-	  
+	  fprintf (fp, "Failed to find four corners. Found %d corners\7\7\n",NC);
+	  fprintf (fp, "Found %d stars\7\7\n",N);
 	  fclose (fp);
 	  
 	  exit (-1);
 	}
-      
+#endif      
       //if the center isn't specified move on to next file unless it is a TAX4 mirror
       
 #ifdef TAx4
@@ -1361,7 +1366,7 @@ void BldPMTMat(double TAX4Tran[][17], char *filepath){
   char command[1025];
   char *csvfile, *copyfile, *file;
   int cntr, pos, lngthu;
-  double PMTMat[67][3], IPMTMat[256][3];
+  double PMTMat[71][3], IPMTMat[256][3];
   int i,j;
   int Numbo;
   VECTOR Tmp1,Tmp2;
@@ -1426,12 +1431,12 @@ void BldPMTMat(double TAX4Tran[][17], char *filepath){
     TAX4Tran[pos][0] = atoi(token); //store mirror number into the matrix
     token = strtok(NULL, " ,\t_.smtp/");
     TAX4Tran[pos][15] = atoi(token); //store trial number into matrix
-
     
     printf("row = %d\n",pos);
     printf("site number = %.0f\n",TAX4Tran[pos][16]);
     printf("mirror number = %.0f\n",TAX4Tran[pos][0]);
     printf("trial number = %.0f\n",TAX4Tran[pos][15]);
+    
     sprintf(fname, "%s", csvfile);
     if ((fp = fopen (fname, "r")) == NULL)
 	{
@@ -1462,12 +1467,16 @@ void BldPMTMat(double TAX4Tran[][17], char *filepath){
 	  }
 	  
 	  cntr++;
+	  
 	}
     fclose(fp);
-    
+
     //here we store the corners of the cover
-    lngthu = cntr - 7;
+
+    lngthu = cntr - 7; //if corners are included 
+    //lngthu = cntr - 3; //if corners aren't included
     cntr -= 1;
+    
     for(i=0;i<4;i++)
       {
 	TAX4Tran[pos][2*i+1] = PMTMat[cntr-i][1];
