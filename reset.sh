@@ -10,7 +10,7 @@ find ./Mirror_Survey_Photos/ -type f -name "img_????.???.csv.*" -exec rm -f '{}'
 rm -f results/*
 rm -f nohup.out
 rm -f process.log
-rm -f finals2000A.data
+#rm -f finals2000A.data
 #rm -f leapsec.dat
 rm -f foo.sh
 echo 'Cleanup finished'
