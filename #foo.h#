@@ -1,4 +1,0 @@
-X[21] = {
-	 {"Area X Y XM YM",5,6},
-	 {"Area	X	Y	XM	YM",5,6},
-	 {"XM,YM,label",1,2}};
