@@ -101,8 +101,42 @@ for i in range(4):
                         iD0n += 1.0 / (float(MirGeo[k][11]))**2
                         D0n += 1
         
-        #computing the standard mean and error with quaduature
+
         if(flag == 1):
+            
+            #computing the inverse variance mean and error with quaduature
+            print("Combined geometry of mirror", i, j)
+            file.write("Geometry of mirror %d, %d\n" % (i,j))
+            
+            if(flagtheta == 1):
+                itheta /= ithetan
+                nthetaD = np.sqrt(nthetaD)
+                print("theta =", itheta, "+/-", nthetaD)
+                file.write("theta = %.3f +/- %.3f\n" % (itheta, nthetaD))
+                
+            if(flagphi == 1):
+                iphi /= iphin
+                nphiD = np.sqrt(nphiD)
+                print("phi =", iphi, "+/-", nphiD)
+                file.write("phi = %.3f +/- %.3f\n" % (iphi, nphiD))
+            
+            if(flagpsi == 1):
+                ipsi /= ipsin
+                nphiD = np.sqrt(nphiD)
+                print("psi =", ipsi, "+/-", npsiD)
+                file.write("psi = %.3f +/- %.3f\n" % (ipsi, npsiD))
+                
+            if(flagD0 == 1):
+                iD0 /= iD0n
+                nD0D = np.sqrt(nD0D)
+                print("D0 =", iD0, "+/-", nD0D)
+                file.write("D0 = %.3f +/- %.3f\n" % (iD0, nD0D))
+
+            print("")
+            file.write("\n")
+            
+            """
+            #computing the standard mean and error with quaduature
             print("Geometry with equal weighting of mirror", i, j)
             file.write("Geometry with equal weighting of mirror %d, %d\n" % (i,j))
             
@@ -163,7 +197,7 @@ for i in range(4):
             
             print("")
             file.write("\n")
-        
+            """
             #now we need to reset all of the variables
             ntheta = 0.0
             nphi = 0.0
