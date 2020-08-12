@@ -1,0 +1,986 @@
+path: ./Mirror_Survey_Photos/Active/
+command: find ./Mirror_Survey_Photos/Active/ -type f -name "img_????.???.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0052
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0053
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0054
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0055
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0056
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0057
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0058
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0059
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0060
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0061
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0062
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0063
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0064
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0065
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0066
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0067
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0068
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0069
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0070
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0071
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0072
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0073
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0074
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0075
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0076
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0077
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0078
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0079
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0080
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0081
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0082
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0083
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0084
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0085
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0086
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0087
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0088
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0089
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0090
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0091
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0092
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0093
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0094
+command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0002
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0003
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0004
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0005
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0006
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0007
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0008
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0009
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0010
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0011
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0012
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0013
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0014
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0015
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0016
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0017
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0018
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0019
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0020
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0021
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0022
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0023
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0024
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0025
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0026
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0027
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0028
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0029
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0030
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0031
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0032
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0033
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0034
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0035
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0036
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0037
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0038
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0039
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0040
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0041
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0042
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0043
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0044
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0045
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0046
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0002
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0003
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0004
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0005
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0006
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0007
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0008
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0009
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0010
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0011
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0012
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0013
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0014
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0015
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0016
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0017
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0018
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0019
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0020
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0021
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0022
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0023
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0024
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0025
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0026
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0027
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0028
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0029
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0030
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0031
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0032
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0033
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0034
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0035
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0036
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0037
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0038
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0039
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0040
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0041
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0042
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0043
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0044
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0045
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0046
+command: find ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0035
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0036
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0037
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0038
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0039
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0040
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0041
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0042
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0043
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0044
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0045
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0046
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0047
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0048
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0049
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0050
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0051
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0052
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0053
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0054
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0055
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0056
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0057
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0058
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0059
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0060
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0061
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0062
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0063
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0064
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0065
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0076
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0035
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0036
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0037
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0038
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0039
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0040
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0041
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0042
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0043
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0044
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0045
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0046
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0047
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0048
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0049
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0050
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0051
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0052
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0053
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0054
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0055
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0056
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0057
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0058
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0059
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0060
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0061
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0062
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0063
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0064
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0065
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0076
+command: find ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_2
+File not found: ./Mirror_Survey_Photos/Active/m27_trial_2/img_0035.jpg
+ERROR: Failed to extract Create Date from ./Mirror_Survey_Photos/Active/m27_trial_2/img_0035.jpg
+path: ./Mirror_Survey_Photos/Active/m27_trial_2
+root: img_0066
+command: find ./Mirror_Survey_Photos/Active/m27_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_2
+root: img_0067
+command: find ./Mirror_Survey_Photos/Active/m27_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_2
+root: img_0068
+command: find ./Mirror_Survey_Photos/Active/m27_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_2
+root: img_0069
+command: find ./Mirror_Survey_Photos/Active/m27_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_2
+root: img_0070
+command: find ./Mirror_Survey_Photos/Active/m27_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_2
+root: img_0071
+command: find ./Mirror_Survey_Photos/Active/m27_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_2
+root: img_0072
+command: find ./Mirror_Survey_Photos/Active/m27_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_2
+root: img_0073
+command: find ./Mirror_Survey_Photos/Active/m27_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_2
+root: img_0074
+command: find ./Mirror_Survey_Photos/Active/m27_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_2
+root: img_0075
+command: find ./Mirror_Survey_Photos/Active/m27_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_2
+root: img_0076
+command: find ./Mirror_Survey_Photos/Active/m27_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2
+File not found: ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2/img_0035.jpg
+ERROR: Failed to extract Create Date from ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2/img_0035.jpg
+path: ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2
+root: img_0066
+command: find ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2
+root: img_0067
+command: find ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2
+root: img_0068
+command: find ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2
+root: img_0069
+command: find ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2
+root: img_0070
+command: find ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2
+root: img_0071
+command: find ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2
+root: img_0072
+command: find ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2
+root: img_0073
+command: find ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2
+root: img_0074
+command: find ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2
+root: img_0075
+command: find ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2
+root: img_0076
+command: find ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+File not found: ./Mirror_Survey_Photos/Active/m28_trial_1/img_0001.jpg
+ERROR: Failed to extract Create Date from ./Mirror_Survey_Photos/Active/m28_trial_1/img_0001.jpg
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+File not found: ./Mirror_Survey_Photos/Active/m28_trial_1/img_0002.jpg
+ERROR: Failed to extract Create Date from ./Mirror_Survey_Photos/Active/m28_trial_1/img_0002.jpg
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+File not found: ./Mirror_Survey_Photos/Active/m28_trial_1/img_0003.jpg
+ERROR: Failed to extract Create Date from ./Mirror_Survey_Photos/Active/m28_trial_1/img_0003.jpg
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+File not found: ./Mirror_Survey_Photos/Active/m28_trial_1/img_0004.jpg
+ERROR: Failed to extract Create Date from ./Mirror_Survey_Photos/Active/m28_trial_1/img_0004.jpg
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+root: img_0005
+command: find ./Mirror_Survey_Photos/Active/m28_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+root: img_0006
+command: find ./Mirror_Survey_Photos/Active/m28_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+File not found: ./Mirror_Survey_Photos/Active/m28_trial_1/img_0007.jpg
+ERROR: Failed to extract Create Date from ./Mirror_Survey_Photos/Active/m28_trial_1/img_0007.jpg
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+root: img_0008
+command: find ./Mirror_Survey_Photos/Active/m28_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+root: img_0009
+command: find ./Mirror_Survey_Photos/Active/m28_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+root: img_0010
+command: find ./Mirror_Survey_Photos/Active/m28_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+root: img_0011
+command: find ./Mirror_Survey_Photos/Active/m28_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+root: img_0012
+command: find ./Mirror_Survey_Photos/Active/m28_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+root: img_0013
+command: find ./Mirror_Survey_Photos/Active/m28_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+root: img_0014
+command: find ./Mirror_Survey_Photos/Active/m28_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+root: img_0015
+command: find ./Mirror_Survey_Photos/Active/m28_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+root: img_0016
+command: find ./Mirror_Survey_Photos/Active/m28_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+root: img_0017
+command: find ./Mirror_Survey_Photos/Active/m28_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+root: img_0018
+command: find ./Mirror_Survey_Photos/Active/m28_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+root: img_0019
+command: find ./Mirror_Survey_Photos/Active/m28_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+root: img_0020
+command: find ./Mirror_Survey_Photos/Active/m28_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+root: img_0021
+command: find ./Mirror_Survey_Photos/Active/m28_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+root: img_0022
+command: find ./Mirror_Survey_Photos/Active/m28_trial_1 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+File not found: ./Mirror_Survey_Photos/Active/m28_trial_1/img_0023.jpg
+ERROR: Failed to extract Create Date from ./Mirror_Survey_Photos/Active/m28_trial_1/img_0023.jpg
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+File not found: ./Mirror_Survey_Photos/Active/m28_trial_1/img_0024.jpg
+ERROR: Failed to extract Create Date from ./Mirror_Survey_Photos/Active/m28_trial_1/img_0024.jpg
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+File not found: ./Mirror_Survey_Photos/Active/m28_trial_1/img_0025.jpg
+ERROR: Failed to extract Create Date from ./Mirror_Survey_Photos/Active/m28_trial_1/img_0025.jpg
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+File not found: ./Mirror_Survey_Photos/Active/m28_trial_1/img_0026.jpg
+ERROR: Failed to extract Create Date from ./Mirror_Survey_Photos/Active/m28_trial_1/img_0026.jpg
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+File not found: ./Mirror_Survey_Photos/Active/m28_trial_1/img_0027.jpg
+ERROR: Failed to extract Create Date from ./Mirror_Survey_Photos/Active/m28_trial_1/img_0027.jpg
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+File not found: ./Mirror_Survey_Photos/Active/m28_trial_1/img_0028.jpg
+ERROR: Failed to extract Create Date from ./Mirror_Survey_Photos/Active/m28_trial_1/img_0028.jpg
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+File not found: ./Mirror_Survey_Photos/Active/m28_trial_1/img_0029.jpg
+ERROR: Failed to extract Create Date from ./Mirror_Survey_Photos/Active/m28_trial_1/img_0029.jpg
+path: ./Mirror_Survey_Photos/Active/m28_trial_1
+File not found: ./Mirror_Survey_Photos/Active/m28_trial_1/img_0031.jpg
+ERROR: Failed to extract Create Date from ./Mirror_Survey_Photos/Active/m28_trial_1/img_0031.jpg
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0001
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0002
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0003
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0004
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0005
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0006
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0007
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0008
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0009
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0010
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0011
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0012
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0013
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0014
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0015
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0016
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0017
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0018
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0019
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0020
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0021
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0022
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0023
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0024
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0025
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0026
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0027
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0028
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0029
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_2
+root: img_0031
+command: find ./Mirror_Survey_Photos/Active/m28_trial_2 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0002
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0003
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0004
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0005
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0006
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0007
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0008
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0009
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0010
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0011
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0012
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0013
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0014
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0015
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0016
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0017
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0018
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0019
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0020
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0021
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0022
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0023
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0024
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0025
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0026
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0027
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0028
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0029
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0030
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0031
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0032
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0033
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0034
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0035
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0036
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0037
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0038
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0039
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0040
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0041
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0042
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0043
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0044
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0045
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0046
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0047
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"
+path: ./Mirror_Survey_Photos/Active/m28_trial_3
+root: img_0048
+command: find ./Mirror_Survey_Photos/Active/m28_trial_3 -type f -name "s?_m??_t?_p?.csv"

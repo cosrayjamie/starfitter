@@ -7948,7 +7948,11 @@ short int cio_array (double jd_tdb, long int n_pts,
    Read the file header.
 */
 
-      fread (&jd_beg, double_size, (size_t) 1, cio_file);
+      if (fread (&jd_beg, double_size, (size_t) 1, cio_file)<0)
+        {
+          fprintf(stderr, "fread failed.\n");
+          exit(-1);
+        }
       fread (&jd_end, double_size, (size_t) 1, cio_file);
       fread (&t_int, double_size, (size_t) 1, cio_file);
       fread (&n_recs, long_size, (size_t) 1, cio_file);
