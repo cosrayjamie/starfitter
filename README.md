@@ -9,9 +9,9 @@
 3. **EXIF Tags.** The ExifTool requires that custom EXIF tags be added to the star images. The ExifTool can be used to add these tags to the images.
 
 Here is an example:
-'''
+```
 $ exiftool Mirror_Survey_Photos/Active/m25_trial_1/img_0052.jpg | grep TA
-'''
+```
 
 Please regard the following file naming conventions for your photos and csv files:
 
@@ -46,12 +46,12 @@ Each trial has its own PMT file for greater accuracy. If the starting PMT file (
   In the newer photo sets (2019 Josh and Aasutosh, 2019 Josh and Ricardo), just use the PMT measurement
 
 5. **Compilation.** Navigate to the main Starfitter directory in a terminal and enter the following commands on the command line:
-'''
+```
     $ chmod +x compile.sh #makes it an executable
     $ bash compile.sh     #runs the script using the bash shell
     $ chmod +x compileTAx4.sh
     $ bash compileTAx4.sh
-'''
+```
 
 6. **Include Final Needed Geometry Files.** Now things are compiled and files are correctly labelled and moved. Before the shell script reset.sh can be run and process the photo sessions, make sure you have the following in ./Starfitter:
 
@@ -61,10 +61,10 @@ Each trial has its own PMT file for greater accuracy. If the starting PMT file (
 - It requires /media/backup/ to be mounted so that it can rsync all of the star images, .csv files, etc. to the backup.
 
 Now you can run ./reset.sh, which will process all of the star images and produce new results in the ./Starfitter/results/ subdirectory.
-'''
+```
     $ chmod +x reset.sh
     $ bash reset.sh
-'''
+```
 Reset.sh clears prior results and creates mirror geometries via least squares optimization.
 
 First, reset.sh runs the script ./process_results.sh, which runs the program ./transform on the entire directory tree under ./Mirror_Survey_Photos/.
@@ -112,7 +112,7 @@ and tries to match real stars with the measured star positions. Finally, it writ
 file.
 
 Here is the example file "img_0260.csv" from the subdirectory /BR
-
+```
         " " "Area"      "Mean"  "Min"   "Max"   "X"     "Y"     "XM"    "YM"    "Slice"
 1       0       58      58      58      1304.372        80.393  1304.573        80.594  0.402   "corner"
 2       0       33      33      33      280.973 77.579  281.173 77.78   0.402   "corner"
@@ -121,10 +121,10 @@ Here is the example file "img_0260.csv" from the subdirectory /BR
 0       0       0       0       0       0       0       792.1695        516.322 0       "center"
 5       1096.284        134.001 6       243     880.099 550.087 880.258 550.052 0       "star"
 6       504.921 91.295  0       152     751.069 320.164 751.125 319.897 0       "star"
-
+```
 transform.c can be compiled into three different executable versions, one for each site,
 BLACKROCK, LONGRIDGE, or MIDDLEDRUM >
-
+```
 >cd src
 >gcc -O4 -static -D BLACKROCK -o br_trans transform.c -lm
 >gcc -O4 -static -D MIDDLEDRUM -o md_trans transform.c -lm
@@ -137,11 +137,11 @@ BLACKROCK, LONGRIDGE, or MIDDLEDRUM >
 >ln -s src/md_trans .
 >ln -s src/ta_stars .
 >ln -s src/starfitter .
-
+```
 Here is an example of how to run the transform program for the example Black Rock mirror #5 image img_260.jpg
-
+```
 >./br_trans 5 BR/img_0260
-
+```
 This should create the file BR/img_0260.stars.txt
 
 You need to create .stars.txt files for all of the images for which you made .csv files. The .csv files must
@@ -149,13 +149,13 @@ be in the correct format, above, or the program will not work. It looks for four
 Check for errors and make sure things look reasonable and that it found matching stars.
 
 Now concatenate all of the .stars.txt files into one .stars.txt file for mirror #05
-
+```
 >cat BR/*.stars.txt > m5.stars.txt
 >mv m5.stars.txt BR/.
-
+```
 Now you should have a file m5.stars.txt with lots of matched stars from different photographs and different
 times. You can use this file to fit for the geometry of the mirror.
-
+```
 >./starfitter BR/m5.stars.txt
-
+```
 Hopefully, this will print out the fitted geometry for the mirror.
