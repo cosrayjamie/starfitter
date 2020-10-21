@@ -1,32 +1,19 @@
-Analyzing Star Photographs
+#Analyzing Star Photographs
 
-===============================================================================================================
-Please read before running anything.
+##Instructions
 
-1. Read the "TA Star Photography" wiki on the TA site: http://www.telescopearray.org/tawiki/index.php/TA_Star_Photography.
-2. Follow the directions there to a) take photos on site, b) measure PMTs, and c) measure screen corners and star centroids (lovingly known as star blobs) in ImageJ. You'll need the photos for the mirror in question (~50 photos), the PMT csv file for each mirror (1 or 2), and the measured screen corner/star centroid csv files for each photo (~50) to run Starfitter.
-3. Compilation. This set of commands will compile all the programs necessary to analyze star photographs.
-  Navigate to the main Starfitter directory in a terminal and enter the following commands on the command line:
+1. Skim the "TA Star Photography" wiki on the TA site: http://www.telescopearray.org/tawiki/index.php/TA_Star_Photography.
 
-    $ chmod +x compile.sh #makes it an executable
-    $ bash compile.sh     #runs the script using the bash shell
-    $ chmod +x compileTAx4.sh
-    $ bash compileTAx4.sh
+2. Follow the directions there to a) take photos for each mirror in question, b) measure the first and last light-on, screen-off PMT photos, and c) measure the screen corners and star centroids (aka star blobs) in ImageJ for each light-off, screen-on photos.
 
-4. In the main Starfitter directory, navigate to the subdirectory Mirror_Survey_Photos/Active. In this subdirectory, create a folder for each mirror trial. For example, you'll have am25_trial_1 folder, a m26_trial_2 folder, etc.
-
-Within each of these mirror trial folders, place all the star photos for that trial (e.g., img_0001, img_0002, ... img_0047), the star/corner csv files for each photo (e.g., img_0052), and the PMT csv.
-Copy  into Starfitter directory under the folder Mirror_Survey_Photos, but . Be sure that each telescope you want to analyze (including different trials of the same mirror recorded during the same night) has its own directory containing EXIF tagged photos, star measurement csv files, and a PMT measurement file.  The following are the file naming conventions that must be followed:
-
-exiftool requires that custom EXIF tags be added to the star images. exiftool can be used to add these tags to the images.
+3. The ExifTool requires that custom EXIF tags be added to the star images. The ExifTool can be used to add these tags to the images.
 
 Here is an example:
+'''
+$ exiftool Mirror_Survey_Photos/Active/m25_trial_1/img_0052.jpg | grep TA
+'''
 
->exiftool Mirror_Survey_Photos/MD/20130305/img_3218.jpg | grep TA
-
-TA Mirror Number                : 15
-TA Site Name                    : Middle Drum
-TA Site Number                  : 0
+Please regard the following file naming conventions for your photos and csv files:
 
 Each site has different dimensions for the cluster, dimensions used in the transformations.
 Site 0: Middle Drum (Includes MD TAx4)
@@ -34,47 +21,57 @@ Site 1: Black Rock
 Site 2: Long Ridge
 Site 3: Black Rock TAx4
 
-For photos: img_????.jpg
-For star measurement files: img_????.???.csv
+TA Site Name                    : Middle Drum
+TA Site Number                  : 0
+TA Mirror Number                : 25
 
-The first four ?s are the image number, and the next three ?s are the initials of the person who measured the stars.
+For photos: img_####.jpg
+For star measurement files: img_####.AAA.csv
 
-For PMT measurements: s?_m??_t?_p?.csv
+The first four ####s are the image number, and the next three AAAs are the initials of the person who measured the stars.
 
-The first ? is the site number, the next two ?s are the mirror number, the next ? is the trial number (if a mirror was measured more than once during that run), and the last ? is a position number (before taking photos and after taking photos).
+For PMT measurements: s#_m##_t#_p#.csv
 
-To get star measurements and initial results, be sure the mirror photos (just one mirror at a time) and that mirror's PMT csv file are in the Mirror_Survey_Photos/ directory.
+The first # is the site number, the next two ##s are the mirror number, the next # is the trial number (if a mirror was measured more than once during that run), and the last # is a PMT position number (before taking photos and after taking photos).
 
-5. Copy Mirror Data into Starfitter. Under ./starfitter/Mirror_Survey_Photos/Active, place directories for each trial of each mirror in your set. Example, from the 2018-09-20 Josh and Jamie TAx4 star photo set:
-  m25 m26 m27t1 m27t2 m28t1 m28t2 m28t3
+You can get rid of the extra RAW data.
 
-  In each mirror subdirectory, copy in the following data:
-    1) The ~50 JPG photos (get rid of the extra RAW data),
-    2) The ~50 CSV files of the measured corners and star blobs, and
-    3) The PMT measurement file. Each trial should have its own PMT file for greater accuracy.
+4. Each "photo session" gets its own directory under ./Starfitter/Mirror_Survey_Photos/Active/ (e.g., /m25_trial_1, /m25_trial_2, /m26_trial_1, etc.), and each directory contains three kinds of files:
+  - the EXIF-tagged photos from that session (~50 photos: img_0051.jpg, img_0052.jpg, ... img_0094.jpg),
+  - one PMT csv file for that mirror trial (e.g., s0_m25_t1_p1.csv), and
+  - the "star blob csv"--the measured screen corners and star centroids you measured (manually in ImageJ or, ideally, automated), e.g., img_0052.jaz.csv, ... img_0094.jaz.csv. One for each photo.
 
-    NOTE: Sometimes there are two PMT files for one trial of one mirror. These are for the beginning of the photo set and the end of the photo set. In the older 2018 Josh and Jamie photo set, make two directories of the same run, each with one of the two PMT files.
+Each trial has its own PMT file for greater accuracy. If the starting PMT file (p1) is significantly different than the final PMT file (p2) (caused by a potential shift in the camera during the photo session), then duplicate the folder, e.g., ./Starfitter/Mirror_Survey_Photos/Active/m26_trial_1 contains the first PMT file, s0_m26_t1_p1.csv, and the duplicated /m26_trial_1_PMT2 directory contains the second PMT file, s0_m26_t1_p2.csv.
 
-    In the newer photo sets (2019 Josh and Aasutosh, 2019 Josh and Ricardo), just use the PMT measurement
+  In the newer photo sets (2019 Josh and Aasutosh, 2019 Josh and Ricardo), just use the PMT measurement
 
-6. Import Files for reset.sh. Now things are compiled and files are correctly labelled and moved. The shell script ./reset.sh will reprocess all of the star images and produce new results in the results/ subdirectory. Before it can be run, make sure you have the following and read what it does:
+5. Compilation. Navigate to the main Starfitter directory in a terminal and enter the following commands on the command line:
+'''
+    $ chmod +x compile.sh #makes it an executable
+    $ bash compile.sh     #runs the script using the bash shell
+    $ chmod +x compileTAx4.sh
+    $ bash compileTAx4.sh
+'''
 
-It requires an initial mirror geometry file, mirror_geometry.dat
-It requires an up-to-date corner geometry file, corner_geometry.dat
-It requires the directory ./Mirror_Survey_Photos/ with all of the star photos and .csv files.
-It requires /media/backup/ to be mounted so that it can rsync all of the star images, .csv files, etc. to the backup.
+6. Final Needed Geometry Files. Now things are compiled and files are correctly labelled and moved. Before the shell script reset.sh can be run and process the photo sessions, make sure you have the following:
 
-It runs the script ./process_results.sh.
+- Reset.sh requires an initial mirror geometry file: 'mirror_geometry.dat'
+- It requires an up-to-date corner geometry file: 'corner_geometry.dat'
+- It requires each photo session/trial to have its own directory under ./Mirror_Survey_Photos/Active/ with the files mentioned above.
+- It requires /media/backup/ to be mounted so that it can rsync all of the star images, .csv files, etc. to the backup.
 
-./process_results.sh runs the program ./transform on the entire directory tree under ./Mirror_Survey_Photos/.
-
-./transform reads the .csv files, checks the corners and matches stars. It uses ExifTool to extract information from the star photos and the program ./ta_stars to compute star positions from the image data.
-
-and then compile and run reset.sh. Reset.sh clears prior results and creates mirror geometries via least squares optimization.
+Now you can run ./reset.sh, which will process all of the star images and produce new results in the ./Starfitter/results/ subdirectory.
+'''
     $ chmod +x reset.sh
     $ bash reset.sh
+'''
+Reset.sh clears prior results and creates mirror geometries via least squares optimization.
 
-After you've done this, you'll have a bunch of results in the results directory. Check process.log (in ~/starfitter) and summary.results (in ~/starfitter/results) to make sure everything worked properly.
+First, reset.sh runs the script ./process_results.sh, which runs the program ./transform on the entire directory tree under ./Mirror_Survey_Photos/.
+
+The program ./transform reads the .csv files, checks the corners, and matches stars. It uses ExifTool to extract information from the star photos and the program ./ta_stars to compute star positions from the image data.
+
+After reset.sh is done processing the photos, you'll have a bunch of results in the ./Starfitter/results subdirectory. Check process.log (in ~/Starfitter) and summary.results (in ~/Starfitter/results) to make sure everything worked properly.
 
 6. Refining Results and Estimating Error.  Now you can run_boot.sh, or for TAx4 photos, you can run process_TAx4.sh. Both programs run boot_results.sh and /boot_stats.
 
