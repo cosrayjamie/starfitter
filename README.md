@@ -1,6 +1,6 @@
-#Analyzing Star Photographs
+# Analyzing Star Photographs
 
-##Instructions
+## Instructions
 
 1. **Wiki.** Skim the "TA Star Photography" wiki on the TA site: http://www.telescopearray.org/tawiki/index.php/TA_Star_Photography.
 
