@@ -2,11 +2,11 @@
 
 ##Instructions
 
-1. Skim the "TA Star Photography" wiki on the TA site: http://www.telescopearray.org/tawiki/index.php/TA_Star_Photography.
+1. **Wiki.** Skim the "TA Star Photography" wiki on the TA site: http://www.telescopearray.org/tawiki/index.php/TA_Star_Photography.
 
-2. Follow the directions there to a) take photos for each mirror in question, b) measure the first and last light-on, screen-off PMT photos, and c) measure the screen corners and star centroids (aka star blobs) in ImageJ for each light-off, screen-on photos.
+2. **Take Photos.** Follow the directions there to a) take photos for each mirror in question, b) measure the first and last light-on, screen-off PMT photos, and c) measure the screen corners and star centroids (aka star blobs) in ImageJ for each light-off, screen-on photos.
 
-3. The ExifTool requires that custom EXIF tags be added to the star images. The ExifTool can be used to add these tags to the images.
+3. **EXIF Tags.** The ExifTool requires that custom EXIF tags be added to the star images. The ExifTool can be used to add these tags to the images.
 
 Here is an example:
 '''
@@ -36,7 +36,7 @@ The first # is the site number, the next two ##s are the mirror number, the next
 
 You can get rid of the extra RAW data.
 
-4. Each "photo session" gets its own directory under ./Starfitter/Mirror_Survey_Photos/Active/ (e.g., /m25_trial_1, /m25_trial_2, /m26_trial_1, etc.), and each directory contains three kinds of files:
+4. **Create Photo Directories.** Each "photo session" gets its own directory under ./Starfitter/Mirror_Survey_Photos/Active/ (e.g., /m25_trial_1, /m25_trial_2, /m26_trial_1, etc.), and each directory contains three kinds of files:
   - the EXIF-tagged photos from that session (~50 photos: img_0051.jpg, img_0052.jpg, ... img_0094.jpg),
   - one PMT csv file for that mirror trial (e.g., s0_m25_t1_p1.csv), and
   - the "star blob csv"--the measured screen corners and star centroids you measured (manually in ImageJ or, ideally, automated), e.g., img_0052.jaz.csv, ... img_0094.jaz.csv. One for each photo.
@@ -45,7 +45,7 @@ Each trial has its own PMT file for greater accuracy. If the starting PMT file (
 
   In the newer photo sets (2019 Josh and Aasutosh, 2019 Josh and Ricardo), just use the PMT measurement
 
-5. Compilation. Navigate to the main Starfitter directory in a terminal and enter the following commands on the command line:
+5. **Compilation.** Navigate to the main Starfitter directory in a terminal and enter the following commands on the command line:
 '''
     $ chmod +x compile.sh #makes it an executable
     $ bash compile.sh     #runs the script using the bash shell
@@ -53,7 +53,7 @@ Each trial has its own PMT file for greater accuracy. If the starting PMT file (
     $ bash compileTAx4.sh
 '''
 
-6. Final Needed Geometry Files. Now things are compiled and files are correctly labelled and moved. Before the shell script reset.sh can be run and process the photo sessions, make sure you have the following:
+6. **Include Final Needed Geometry Files.** Now things are compiled and files are correctly labelled and moved. Before the shell script reset.sh can be run and process the photo sessions, make sure you have the following in ./Starfitter:
 
 - Reset.sh requires an initial mirror geometry file: 'mirror_geometry.dat'
 - It requires an up-to-date corner geometry file: 'corner_geometry.dat'
@@ -73,9 +73,9 @@ The program ./transform reads the .csv files, checks the corners, and matches st
 
 After reset.sh is done processing the photos, you'll have a bunch of results in the ./Starfitter/results subdirectory. Check process.log (in ~/Starfitter) and summary.results (in ~/Starfitter/results) to make sure everything worked properly.
 
-6. Refining Results and Estimating Error.  Now you can run_boot.sh, or for TAx4 photos, you can run process_TAx4.sh. Both programs run boot_results.sh and /boot_stats.
+7. **Refining Results and Estimating Error.** Now you can run_boot.sh, or for TAx4 photos, you can run process_TAx4.sh. Both programs run boot_results.sh and /boot_stats.
 
-boot_results.sh uses bootstrapping to find errors with /new_starfitter, which requires a current mirror_geometry.dat file (probably with the contents of summary.results) and .stars.txt files. If something goes wrong, look at rejects.err to figure out what went wrong. The results are put into mirror_geometry.nparm.dat.
+The shell script boot_results.sh uses bootstrapping to find errors with new_starfitter, which requires a current mirror_geometry.dat file (probably with the contents of summary.results) and .stars.txt files. If something goes wrong, look at rejects.err to figure out what went wrong. The results are put into mirror_geometry.nparm.dat.
 
 /boot_stats finds the median and 95% confidence interval.
 
@@ -83,7 +83,7 @@ Finally, in process_TAx4.sh, QuickStat.py will compile the results from differen
 
 -Stan Thomas, Josh Peterson, Jamie Zvirzdin
 
-===============================================================================================================
+
 
 
 
