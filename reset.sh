@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 echo 'Starting cleanup'
 rm -rf ./Mirror_Survey_Photos/.Trash-1000/
 find ./Mirror_Survey_Photos/ -type f -name "img_????.???.csv.processing_report" -exec rm -f '{}' \;

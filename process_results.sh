@@ -1,5 +1,5 @@
-#!/bin/bash
-#./test_trans ./Mirror_Survey_Photos/Active/ 1>>process.log 2>>process.err
+#!/usr/bin/env bash
+./test_trans ./Mirror_Survey_Photos/Active/ 1>>process.log 2>>process.err
 #find /home/thomas/starfitterMirror_Survey_Photos/ -type f -name "img_????.???.stars.txt" -exec mv '{}' results/. \;
 cat results/*img_????.???.stars.txt > results/all.stars.txt
 grep -v jshhdd results/*img_????.???.stars.txt | sort -k 13 -gr > results/all.stars.csv #delete grep -v jshhdd??
