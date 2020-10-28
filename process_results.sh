@@ -1,7 +1,8 @@
-./test_trans ./Mirror_Survey_Photos/Active/ 1>process.log 2>process.log
+#!/bin/bash
+#./test_trans ./Mirror_Survey_Photos/Active/ 1>>process.log 2>>process.err
 #find /home/thomas/starfitterMirror_Survey_Photos/ -type f -name "img_????.???.stars.txt" -exec mv '{}' results/. \;
 cat results/*img_????.???.stars.txt > results/all.stars.txt
-grep -v jshhdd results/*img_????.???.stars.txt | sort -k 13 -gr > results/all.stars.csv
+grep -v jshhdd results/*img_????.???.stars.txt | sort -k 13 -gr > results/all.stars.csv #delete grep -v jshhdd??
 find ./Mirror_Survey_Photos/Active/ -type f -name "img_????.???.csv*" -exec wc '{}' \; | awk '{print $NF" "$1}' | awk -F / '{print $NF}' | sort | uniq > results/csvfile_status.results
 grep "1 1 " results/all.stars.txt > results/md_m01.stars.txt && ./starfitter results/md_m01.stars.txt | tee results/md_m01.stars.txt.results | tail -n 1 > results/summary.results
 grep "1 2 " results/all.stars.txt > results/md_m02.stars.txt && ./starfitter results/md_m02.stars.txt | tee results/md_m02.stars.txt.results | tail -n 1 >> results/summary.results

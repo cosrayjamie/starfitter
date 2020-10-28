@@ -1,4 +1,638 @@
 path: ./Mirror_Survey_Photos/Active/
+command: find ./Mirror_Survey_Photos/Active/ -type f -name "img_????.???.csv"
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0052
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0053
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0054
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0055
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0056
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0057
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0058
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0059
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0060
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0061
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0062
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0063
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0064
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0065
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0066
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0067
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0068
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0069
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0070
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0071
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0072
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0073
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0074
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0075
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0076
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0077
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0078
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0079
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0080
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0081
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0082
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0083
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0084
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0085
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0086
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0087
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0088
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0089
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0090
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0091
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0092
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0093
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m25_trial_1
+root: img_0094
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 25
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0002
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0003
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0004
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0005
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0006
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0007
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0008
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0009
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0010
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0011
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0012
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0013
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0014
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0015
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0016
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0017
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0018
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0019
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0020
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0021
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0022
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0023
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0024
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0025
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0026
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0027
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0028
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0029
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0030
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0031
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0032
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0033
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0034
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0035
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0036
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0037
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0038
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0039
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0040
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0041
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0042
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0043
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0044
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0045
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1
+root: img_0046
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0002
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0003
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0004
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0005
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0006
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0007
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0008
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0009
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0010
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0011
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0012
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0013
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0014
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0015
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0016
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0017
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0018
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0019
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0020
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0021
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0022
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0023
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0024
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0025
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0026
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0027
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0028
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0029
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0030
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0031
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0032
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0033
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0034
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0035
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0036
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0037
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0038
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0039
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0040
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0041
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0042
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0043
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0044
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0045
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m26_trial_1_PMT2
+root: img_0046
+ERROR: Failed to find corner data for 20180921 site: 0 mir: 26
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0035
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0036
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0037
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0038
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0039
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0040
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0041
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0042
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0043
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0044
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0045
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0046
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0047
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0048
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0049
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0050
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0051
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0052
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0053
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0054
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0055
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0056
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0057
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0058
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0059
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0060
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0061
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0062
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0063
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0064
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0065
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1
+root: img_0076
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0035
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0036
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0037
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0038
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0039
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0040
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0041
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0042
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0043
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0044
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0045
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0046
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0047
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0048
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0049
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0050
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0051
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0052
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0053
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0054
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0055
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0056
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0057
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0058
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0059
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0060
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0061
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0062
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0063
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0064
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0065
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_1_PMT2
+root: img_0076
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_2
+File not found: ./Mirror_Survey_Photos/Active/m27_trial_2/img_0035.jpg
+ERROR: Failed to extract Create Date from ./Mirror_Survey_Photos/Active/m27_trial_2/img_0035.jpg
+path: ./Mirror_Survey_Photos/Active/m27_trial_2
+root: img_0066
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_2
+root: img_0067
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_2
+root: img_0068
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_2
+root: img_0069
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_2
+root: img_0070
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_2
+root: img_0071
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_2
+root: img_0072
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_2
+root: img_0073
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_2
+root: img_0074
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_2
+root: img_0075
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_2
+root: img_0076
+ERROR: Failed to find corner data for 20180920 site: 0 mir: 27
+path: ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2
+File not found: ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2/img_0035.jpg
+ERROR: Failed to extract Create Date from ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2/img_0035.jpg
+path: ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2
+Killed
+path: ./Mirror_Survey_Photos/Active/
 Found s0_m25_t1_p1.csv
 Found s0_m26_t1_p1.csv
 Found s0_m26_t1_p2.csv
