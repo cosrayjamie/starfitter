@@ -1,189 +1,866 @@
-path: ./Mirror_Survey_Photos/Active/
-Found s0_m25_t1_p1.csv
-Found s0_m26_t1_p1.csv
-Found s0_m26_t1_p2.csv
-Found s0_m27_t1_p1.csv
-Found s0_m27_t1_p1.csv
-Found s0_m27_t1_p1.csv
-Found s0_m27_t1_p1.csv
-Found s0_m28_t2_p1.csv
-Found s0_m28_t2_p2.csv
-command: find ./Mirror_Survey_Photos/Active/ -type f -name "img_????.???.csv"
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0052
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0052.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0052.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0053
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0053.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0053.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0054
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0054.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0054.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0055
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0055.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0055.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0056
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0056.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0056.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0057
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0057.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0057.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0058
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0058.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0058.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0059
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0059.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0059.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0060
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0060.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0060.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0061
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0061.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0061.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0062
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0062.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0062.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0063
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0063.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0063.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0064
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0064.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0064.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0065
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0065.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0065.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0066
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0066.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0066.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0067
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0067.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0067.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0068
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0068.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0068.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0069
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0069.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0069.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0070
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0070.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0070.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0071
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0071.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0071.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0072
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0072.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0072.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0073
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0073.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0073.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0074
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0074.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0074.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0075
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0075.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0075.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0076
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0076.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0076.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0077
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0077.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0077.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0078
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0078.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0078.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0079
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0079.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0079.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0080
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0080.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0080.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0081
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0081.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0081.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0082
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0082.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0082.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0083
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0083.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0083.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0084
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0084.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0084.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0085
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0085.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0085.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0086
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0086.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0086.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0087
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0087.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0087.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0088
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0088.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0088.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0089
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0089.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0089.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0090
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0090.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0090.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0091
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0091.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0091.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0092
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0092.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0092.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0093
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0093.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0093.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m25_trial_1
-root: img_0094
-command: find ./Mirror_Survey_Photos/Active/m25_trial_1 -type f -name "s?_m??_t?_p?.csv"
-mv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0094.jaz.csv ./Mirror_Survey_Photos/Active/m25_trial_1/img_0094.jaz.csv.passed
-path: ./Mirror_Survey_Photos/Active/m27_trial_2
-File not found: ./Mirror_Survey_Photos/Active/m27_trial_2/img_0035.jpg
-ERROR: Failed to extract Create Date from ./Mirror_Survey_Photos/Active/m27_trial_2/img_0035.jpg
-path: ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2
-File not found: ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2/img_0035.jpg
-ERROR: Failed to extract Create Date from ./Mirror_Survey_Photos/Active/m27_trial_2_PMT2/img_0035.jpg
+cat: 'results/*img_????.???.stars.txt': No such file or directory
+grep: results/*img_????.???.stars.txt: No such file or directory
+urvey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0099.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0100.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0101.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0102.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0103.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0104.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0105.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0106.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0107.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0108.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0109.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0110.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0111.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0112.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0113.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0114.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0115.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0116.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0117.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0118.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0119.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0120.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0121.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0122.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0123.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0124.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0125.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0126.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0127.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0128.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0129.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0130.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0131.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0132.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0133.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0134.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0135.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0136.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0137.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0139.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0140.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0141.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0142.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0143.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0144.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0145.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0146.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0147.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1/img_0148.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0099.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0100.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0101.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0102.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0103.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0104.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0105.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0106.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0107.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0108.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0109.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0110.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0111.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0112.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0113.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0114.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0115.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0116.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0117.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0118.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0119.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0120.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0121.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0122.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0123.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0124.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0125.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0126.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0127.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0128.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0129.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0130.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0131.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0132.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0133.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0134.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0135.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0136.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0137.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0139.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0140.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0141.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0142.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0143.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0144.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0145.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0146.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0147.jpg
+path: ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m29_trial_1_PMT2/img_0148.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0146.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0147.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0148.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0149.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0150.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0151.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0152.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0153.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0154.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0155.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0156.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0157.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0158.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0159.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0160.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0161.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0162.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0163.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0164.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0165.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0166.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0167.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0168.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0169.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0170.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0171.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0172.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0173.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0174.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0175.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0176.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0177.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0178.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0179.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0180.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0181.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0182.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0183.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0184.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0185.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0186.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1/img_0187.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0146.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0147.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0148.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0149.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0150.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0151.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0152.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0153.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0154.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0155.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0156.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0157.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0158.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0159.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0160.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0161.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0162.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0163.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0164.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0165.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0166.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0167.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0168.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0169.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0170.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0171.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0172.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0173.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0174.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0175.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0176.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0177.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0178.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0179.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0180.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0181.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0182.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0183.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0184.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0185.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0186.jpg
+path: ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m30_trial_1_PMT2/img_0187.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0004.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0005.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0006.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0007.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0008.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0009.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0010.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0012.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0013.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0014.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0015.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0016.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0017.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0018.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0019.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0020.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0021.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0022.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0023.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0024.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0025.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0026.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0027.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0028.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0029.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0030.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0031.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0032.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0033.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0034.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0035.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0036.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0037.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0038.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0039.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0040.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0041.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0042.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0043.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0044.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0045.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0046.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0050.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0051.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0052.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0053.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0054.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0055.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0056.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0057.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0058.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0059.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0060.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0061.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0062.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0063.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0064.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1/img_0065.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0004.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0005.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0006.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0007.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0008.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0009.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0010.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0012.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0013.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0014.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0015.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0016.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0017.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0018.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0019.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0020.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0021.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0022.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0023.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0024.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0025.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0026.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0027.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0028.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0029.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0030.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0031.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0032.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0033.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0034.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0035.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0036.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0037.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0038.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0039.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0040.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0041.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0042.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0043.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0044.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0045.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0046.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0050.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0051.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0052.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0053.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0054.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0055.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0056.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0057.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0058.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0059.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0060.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0061.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0062.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0063.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0064.jpg
+path: ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m31_trial_1_PMT2/img_0065.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0004.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0006.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0007.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0008.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0009.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0010.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0011.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0012.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0013.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0014.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0015.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0016.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0017.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0018.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0019.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0020.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0021.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0022.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0023.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0024.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0025.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0026.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0027.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0028.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0029.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0030.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0031.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0032.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0033.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0034.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0035.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0036.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0037.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0038.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0039.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0040.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0041.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0042.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0043.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0044.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0045.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0046.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0047.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0048.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1/img_0049.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0004.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0006.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0007.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0008.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0009.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0010.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0011.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0012.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0013.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0014.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0015.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0016.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0017.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0018.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0019.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0020.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0021.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0022.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0023.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0024.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0025.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0026.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0027.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0028.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0029.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0030.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0031.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0032.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0033.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0034.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0035.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0036.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0037.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0038.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0039.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0040.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0041.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0042.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0043.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0044.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0045.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0046.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0047.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0048.jpg
+path: ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m32_trial_1_PMT2/img_0049.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0052.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0053.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0054.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0055.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0056.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0057.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0058.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0059.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0060.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0061.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0062.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0063.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0064.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0065.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0066.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0067.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0068.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0069.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0070.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0071.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0072.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0073.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0074.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0075.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0076.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0077.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0078.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0079.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0080.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0081.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0082.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0083.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0084.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0085.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0086.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0087.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0088.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0089.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0090.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0091.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0092.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0093.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0094.jpg
+path: ./Mirror_Survey_Photos/Active/m36_trial_1
+ERROR: Failed to extract TA Site Number from ./Mirror_Survey_Photos/Active/m36_trial_1/img_0096.jpg
